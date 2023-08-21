@@ -4,30 +4,24 @@ import React from "react";
 const page = () => {
   return (
     <div className="w-full min-h-screen">
-      <div className="h-96 relative">
-        <Image
-          src="https://images.unsplash.com/photo-1582719508461-905c673771fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdGVsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
-          fill={true}
-          alt="Landing Page"
-          className="h-screen object-cover"
-        />
-        {/* overlay */}
-        <div className="absolute flex flex-col justify-center text-white items-center">
-          <h6 className="">Welcome to Groove</h6>
+      <div className="h-screen bg-zinc-900 relative">
+        <div className="absolute flex flex-row mt-60 gap-14">
+
+        <div className="flex flex-col justify-center items-center flex-1 text-white ">
+          <h6 className="font-bold ">Welcome to Groove</h6>
           <h1 className="text-7xl">The Peak Of Luxury</h1>
-          <p>
-            Stay once, carry memories forever. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Dicta minima atque temporibus sequi
-            voluptate doloribus animi porro aliquam molestias ducimus tenetur
-            vitae molestiae, fugiat ullam nisi nulla odio ea dolore! Nobis ea
-            alias explicabo quia inventore eius doloremque necessitatibus
-            similique pariatur libero assumenda a commodi, recusandae quis,
-            earum dignissimos quod tempore dolores laborum quasi temporibus
-            dolorum? Autem tempora pariatur neque. Et rem labore dolores eaque
-            veniam animi quos, quod, recusandae expedita non blanditiis nobis
-            voluptas aspernatur tempore sapiente porro error! Quasi quam nemo
-            voluptatibus recusandae aliquam enim unde magni expedita!
+          <p className="flex items-center justify-center text-center">
+            Sleek hospitality steps from LOS airport We're next to Murtala
+            Muhammed Airport's international terminal, with in-house immigration
+            facilities for private jet passengers. A fusion of authentic African
+            and modern design, our hotel features an indoor pool with adjoining
+            terrace bar, a fitness center, and steam room. Our steak restaurant
+            and two lounges complete your stay.
           </p>
+        </div>
+        <div className="flex flex-col flex-1 ">
+          <Image src="https://images.unsplash.com/photo-1578991624414-276ef23a534f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjB3ZWxjb21lfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" width={800} height={600}/>
+        </div>
         </div>
       </div>
     </div>
