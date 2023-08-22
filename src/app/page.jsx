@@ -8,9 +8,9 @@ const page = () => {
         <div className="absolute flex flex-row mt-60 gap-14">
 
         <div className="flex flex-col justify-center items-center flex-1 text-white ">
-          <h6 className="font-bold ">Welcome to Groove</h6>
-          <h1 className="text-7xl">The Peak Of Luxury</h1>
-          <p className="flex items-center justify-center text-center">
+          <h6 className=" font-['inter'] text-3xl">Welcome to Groove</h6>
+          <h1 className="text-7xl font-['crimson']">The Peak Of Luxury</h1>
+          <p className="flex items-center justify-center text-center text-2xl font-['yeseva']">
             Sleek hospitality steps from LOS airport We're next to Murtala
             Muhammed Airport's international terminal, with in-house immigration
             facilities for private jet passengers. A fusion of authentic African
