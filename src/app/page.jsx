@@ -51,42 +51,43 @@ const page = () => {
           </h2>
         </div>
         {/* divs for solutions for hotels */}
-        <div className="flex flex-row justify-between gap-5">
-          <div className="flex flex-col">
+
+        <div className="flex flex-row justify-between gap-5 mb-16">
+          <div className="flex flex-1 flex-col pl-20">
             <FaHotel/>
             <h2>Prebuilt Websites</h2>
             <p>All of the demo websites can be easily imported making it incredible easy to get started building your site.</p>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-1 flex-col">
             <FaHotel/>
             <h2>Booking Management</h2>
             <p>Accommodation availability is automatically managed and can be viewed in the calendar dashboard.</p>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-1 flex-col">
             <FaHotel/>
             <h2>Language Translation</h2>
             <p>A custom built multi language translation plugin is included allowing you to easily translate your site.</p>
           </div>
           
         </div>
-        <div className="flex flex-row justify-between gap-5">
-          <div className="flex flex-col">
-            <FaHotel/>
+        <div className="flex flex-row justify-between gap-5 mb-20">
+          <div className="flex flex-1 flex-col pl-20">
+            <FaHotel/> 
             <h2>Drag & Drop Interface</h2>
             <p>All pages and content can be edited using WP Bakery's drag and drop editor, no coding required.</p>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-1 flex-col">
             <FaHotel/>
             <h2>Customer Friendly</h2>
             <p>Looks great and functions perfectly on mobile phones, tablets, laptops, and desktop computers.</p>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-1 flex-col">
             <FaHotel/>
             <h2>Online Payments</h2>
             <p>WooCommerce support allows you to collect credit card payments in a wide variety of local currencies.</p>
           </div>
-          
         </div>
+          
       </div>
     </div>
   );
