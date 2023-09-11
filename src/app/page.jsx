@@ -140,29 +140,29 @@ const page = () => {
               width={500}
               height={500}
               alt="Hotel room"
-              className="rounded-md "
+              className="rounded-md hover:opacity-50 hover:transition-all delay-75"
               />
             <p className="flex items-center justify-center text-white font-['Work_Sans'] pt-5">standard Hotel</p>
             </Link>
           </div>
           <div className="flex flex-col flex-1">
             <Link href="/">
-              <Image src="https://images.unsplash.com/photo-1507038772120-7fff76f79d79?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60" 
+              <Image src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" 
               width={500}
               height={500}
               alt="Hotel room"
-              className="rounded-md "
+              className="rounded-md hover:opacity-50 hover:transition-all delay-75"
               />
             <p className="flex items-center justify-center text-white font-['Work_Sans'] pt-5">Apartment</p>
             </Link>
           </div>
           <div className="flex flex-col flex-1">
             <Link href="/">
-              <Image src="https://images.unsplash.com/photo-1621293954908-907159247fc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60" 
+              <Image src="https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" 
               width={500}
               height={500}
               alt="Hotel room"
-              className="rounded-md"
+              className="rounded-md hover:opacity-50 hover:transition-all delay-75"
               />
             <p className="flex items-center justify-center text-white font-['Work_Sans'] pt-5">Apartment 2</p>
             </Link>
@@ -173,7 +173,7 @@ const page = () => {
               width={500}
               height={500}
               alt="Hotel room"
-              className="rounded-md"
+              className="rounded-md hover:opacity-50 hover:transition-all delay-75"
               />
             <p className="flex items-center justify-center text-white font-['Work_Sans'] pt-5">Bed & Breakfast</p>
             </Link>
@@ -188,40 +188,40 @@ const page = () => {
               width={500}
               height={500}
               alt="Hotel room"
-              className="rounded-md"
+              className="rounded-md hover:opacity-50 hover:transition-all delay-75"
               />
             <p className="flex items-center justify-center text-white font-['Work_Sans'] pt-5">town Villa</p>
             </Link>
           </div>
           <div className="flex flex-col flex-1">
             <Link href="/">
-              <Image src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" 
+              <Image src="https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" 
               width={500}
               height={500}
               alt="Hotel room"
-              className="rounded-md"
+              className="rounded-md hover:opacity-50 hover:transition-all delay-75"
               />
             <p className="flex items-center justify-center text-white font-['Work_Sans'] pt-5">city Hotel</p>
             </Link>
           </div>
           <div className="flex flex-col flex-1">
             <Link href="/">
-              <Image src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" 
+              <Image src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGJlYWNoJTIwaG90ZWxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" 
               width={500}
               height={500}
               alt="Hotel room"
-              className="rounded-md"
+              className="rounded-md hover:opacity-50 hover:transition-all delay-75"
               />
             <p className="flex items-center justify-center text-white font-['Work_Sans'] pt-5">beach Resort</p>
             </Link>
           </div>
           <div className="flex flex-col flex-1">
             <Link href="/">
-              <Image src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" 
+              <Image src="https://images.unsplash.com/photo-1567552379232-c32f3d41d353?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGJvdXRpcXVlJTIwaG90ZWxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" 
               width={500}
               height={500}
               alt="Hotel room"
-              className="rounded-md"
+              className="rounded-md hover:opacity-50 hover:transition-all delay-75"
               />
             <p className="flex items-center justify-center text-white font-['Work_Sans'] pt-5">boutique Villa</p>
             </Link>
