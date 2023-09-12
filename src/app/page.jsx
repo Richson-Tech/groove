@@ -50,7 +50,7 @@ const page = () => {
 
       <div className="h-96 bg-white text-2xl mt-10 mb-60">
         <div className="flex items-center justify-center flex-wrap flex-col">
-          <h2 className="font-['Work_Sans'] text-5xl">
+          <h2 className="font-['Work_Sans'] text-5xl mb-10">
             All In One Solution <br />
             <span className="pl-5">
               For Your <span className="text-[#AA825D]">Hospitability </span>
@@ -124,109 +124,175 @@ const page = () => {
           </div>
         </div>
       </div>
+
       {/* varies of rooms available  */}
       <div className="h-max bg-black text-2xl mt-10">
         <div className="flex items-center justify-center flex-wrap flex-col">
           <h1 className="font-['Work_Sans'] text-5xl mt-5 text-white mb-5">
             Demo Of Rooms
           </h1>
-          <h6 className="text-white mb-10 font-[crimson]">The best experience you ever crave for Because comfort is more important<br /><span className="flex items-center justify-center">to see life from a different perspective.</span></h6>
+          <h6 className="text-white mb-10 font-[crimson]">
+            The best experience you ever crave for Because comfort is more
+            important
+            <br />
+            <span className="flex items-center justify-center">
+              to see life from a different perspective.
+            </span>
+          </h6>
         </div>
 
         <div className="flex flex-row justify-between gap-5">
           <div className="flex flex-col flex-1">
             <Link href="/">
-              <Image src="https://images.unsplash.com/photo-1608198399988-341f712c3711?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60" 
-              width={500}
-              height={500}
-              alt="Hotel room"
-              className="rounded-md hover:opacity-50 hover:transition-all delay-75"
+              <Image
+                src="https://images.unsplash.com/photo-1608198399988-341f712c3711?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
+                width={500}
+                height={500}
+                alt="Hotel room"
+                className="rounded-md hover:opacity-50 hover:transition-all delay-75"
               />
-            <p className="flex items-center justify-center text-white font-['Work_Sans'] pt-5">standard Hotel</p>
+              <p className="flex items-center justify-center text-white font-['Work_Sans'] pt-5">
+                Standard Hotel
+              </p>
             </Link>
           </div>
           <div className="flex flex-col flex-1">
             <Link href="/">
-              <Image src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" 
-              width={500}
-              height={500}
-              alt="Hotel room"
-              className="rounded-md hover:opacity-50 hover:transition-all delay-75"
+              <Image
+                src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+                width={500}
+                height={500}
+                alt="Hotel room"
+                className="rounded-md hover:opacity-50 hover:transition-all delay-75"
               />
-            <p className="flex items-center justify-center text-white font-['Work_Sans'] pt-5">Apartment</p>
+              <p className="flex items-center justify-center text-white font-['Work_Sans'] pt-5">
+                Apartment
+              </p>
             </Link>
           </div>
           <div className="flex flex-col flex-1">
             <Link href="/">
-              <Image src="https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" 
-              width={500}
-              height={500}
-              alt="Hotel room"
-              className="rounded-md hover:opacity-50 hover:transition-all delay-75"
+              <Image
+                src="https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                width={500}
+                height={500}
+                alt="Hotel room"
+                className="rounded-md hover:opacity-50 hover:transition-all delay-75"
               />
-            <p className="flex items-center justify-center text-white font-['Work_Sans'] pt-5">Apartment 2</p>
+              <p className="flex items-center justify-center text-white font-['Work_Sans'] pt-5">
+                Apartment 2
+              </p>
             </Link>
           </div>
           <div className="flex flex-col flex-1">
             <Link href="/">
-              <Image src="https://images.unsplash.com/photo-1594560913095-8cf34bab82ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG90ZWwlMjByb29tc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" 
-              width={500}
-              height={500}
-              alt="Hotel room"
-              className="rounded-md hover:opacity-50 hover:transition-all delay-75"
+              <Image
+                src="https://images.unsplash.com/photo-1594560913095-8cf34bab82ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG90ZWwlMjByb29tc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                width={500}
+                height={500}
+                alt="Hotel room"
+                className="rounded-md hover:opacity-50 hover:transition-all delay-75"
               />
-            <p className="flex items-center justify-center text-white font-['Work_Sans'] pt-5">Bed & Breakfast</p>
+              <p className="flex items-center justify-center text-white font-['Work_Sans'] pt-5">
+                Bed & Breakfast
+              </p>
             </Link>
           </div>
         </div>
-
 
         <div className="flex flex-row justify-between gap-5 mt-10">
           <div className="flex flex-col flex-1">
             <Link href="/">
-              <Image src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhvdGVsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" 
-              width={500}
-              height={500}
-              alt="Hotel room"
-              className="rounded-md hover:opacity-50 hover:transition-all delay-75"
+              <Image
+                src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhvdGVsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+                width={500}
+                height={500}
+                alt="Hotel room"
+                className="rounded-md hover:opacity-50 hover:transition-all delay-75"
               />
-            <p className="flex items-center justify-center text-white font-['Work_Sans'] pt-5">town Villa</p>
+              <p className="flex items-center justify-center text-white font-['Work_Sans'] pt-5">
+                Town Villa
+              </p>
             </Link>
           </div>
           <div className="flex flex-col flex-1">
             <Link href="/">
-              <Image src="https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" 
-              width={500}
-              height={500}
-              alt="Hotel room"
-              className="rounded-md hover:opacity-50 hover:transition-all delay-75"
+              <Image
+                src="https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                width={500}
+                height={500}
+                alt="Hotel room"
+                className="rounded-md hover:opacity-50 hover:transition-all delay-75"
               />
-            <p className="flex items-center justify-center text-white font-['Work_Sans'] pt-5">city Hotel</p>
+              <p className="flex items-center justify-center text-white font-['Work_Sans'] pt-5">
+                City Hotel
+              </p>
             </Link>
           </div>
           <div className="flex flex-col flex-1">
             <Link href="/">
-              <Image src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGJlYWNoJTIwaG90ZWxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" 
-              width={500}
-              height={500}
-              alt="Hotel room"
-              className="rounded-md hover:opacity-50 hover:transition-all delay-75"
+              <Image
+                src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGJlYWNoJTIwaG90ZWxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+                width={500}
+                height={500}
+                alt="Hotel room"
+                className="rounded-md hover:opacity-50 hover:transition-all delay-75"
               />
-            <p className="flex items-center justify-center text-white font-['Work_Sans'] pt-5">beach Resort</p>
+              <p className="flex items-center justify-center text-white font-['Work_Sans'] pt-5">
+                Beach Resort
+              </p>
             </Link>
           </div>
           <div className="flex flex-col flex-1">
             <Link href="/">
-              <Image src="https://images.unsplash.com/photo-1567552379232-c32f3d41d353?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGJvdXRpcXVlJTIwaG90ZWxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" 
-              width={500}
-              height={500}
-              alt="Hotel room"
-              className="rounded-md hover:opacity-50 hover:transition-all delay-75"
+              <Image
+                src="https://images.unsplash.com/photo-1567552379232-c32f3d41d353?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGJvdXRpcXVlJTIwaG90ZWxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
+                width={500}
+                height={500}
+                alt="Hotel room"
+                className="rounded-md hover:opacity-50 hover:transition-all delay-75"
               />
-            <p className="flex items-center justify-center text-white font-['Work_Sans'] pt-5">boutique Villa</p>
+              <p className="flex items-center justify-center text-white font-['Work_Sans'] pt-5">
+                Boutique Villa
+              </p>
             </Link>
           </div>
         </div>
+        <div className="flex flex-row justify-between gap-5 mt-10 mb-10">
+          <Link href="#">
+            <Image
+              src="https://img.freepik.com/free-photo/bedroom-hotel-with-defocused-double-bed_1232-890.jpg?size=626&ext=jpg"
+              width={500}
+              height={500}
+              alt="Hotel room"
+              className="rounded-md hover:opacity-50 hover:transition-all delay-75"
+            />
+            <p className="flex items-center justify-center text-white font-['Work_Sans'] pt-5 mb-10">
+              More Coming Soon...
+            </p>
+          </Link>
+        </div>
+      </div>
+      {/* BOOKING SYSTEM */}
+      <div className="flex items-center justify-center font-['Work_Sans'] text-4xl mt-5">
+        <h2>
+          The Complete{" "}
+          <span className="text-[#AA825D]">
+            {" "}
+            Booking <br />
+          </span>{" "}
+          <span className="flex items-center justify-center">
+            System You Need
+          </span>
+        </h2>
+      </div>
+      <div className="flex items-center justify-center">
+        <p className="text-black">
+          Soho Hotel comes packaged with it's own booking system custom built
+          based on years of <br /> customer feedback. It should contain every feature
+          you need, but if you feel something is <br /> missing please get in touch,
+          I'm always open to feedback and feature requests
+        </p>
       </div>
     </div>
   );
