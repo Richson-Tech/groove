@@ -6,6 +6,7 @@ import { MdBorderColor } from "react-icons/md";
 import { SiGoogletranslate } from "react-icons/si";
 import { VscServerEnvironment } from "react-icons/vsc";
 import { BsEmojiSmileFill, BsCreditCard } from "react-icons/bs";
+import png from "../../public/ss.png";
 
 const page = () => {
   return (
@@ -275,7 +276,7 @@ const page = () => {
       </div>
       {/* BOOKING SYSTEM */}
       <div className="flex items-center justify-center font-['Work_Sans'] text-4xl mt-5">
-        <h2>
+        <h2 className="tracking-wider">
           The Complete{" "}
           <span className="text-[#AA825D]">
             {" "}
@@ -287,12 +288,15 @@ const page = () => {
         </h2>
       </div>
       <div className="flex items-center justify-center">
-        <p className="text-black">
+        <p className="text-black text-base leading-8 tracking-wider">
           Soho Hotel comes packaged with it's own booking system custom built
-          based on years of <br /> customer feedback. It should contain every feature
-          you need, but if you feel something is <br /> missing please get in touch,
-          I'm always open to feedback and feature requests
+          based on years of <br /> customer feedback. It should contain every
+          feature you need, but if you feel something is <br /> missing please
+          get in touch, I'm always open to feedback and feature requests
         </p>
+      </div>
+      <div className="box-content flex flex-row items-center justify-center mt-10">
+        <Image src={png} height={100} width={628} />
       </div>
     </div>
   );
