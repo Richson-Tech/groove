@@ -298,6 +298,185 @@ const page = () => {
       <div className="box-content flex flex-row items-center justify-center mt-10">
         <Image src={png} height={100} width={628} />
       </div>
+      <div className="flex flex-row items-center justify-center mt-10">
+        <h2 className="text-4xl font-['Work_Sans'] leading-10 tracking-wider font-normal">
+          Full Of <span className="text-[#AA825D]">Powerful</span> <br />{" "}
+          <span className="flex items-center justify-center">Features</span>
+        </h2>
+      </div>
+
+      <div className="flex flex-row gap-20 items-center justify-center mt-14 font-normal">
+        <div className="flex flex-col items-center justify-center">
+          <FaHotel size={25} className="text-[#AA825D]" />
+          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-7 tracking-wider">
+            Availability Calendar
+          </h3>
+          <p className="text-[#52575d]">
+            Accurately manage the availability <br /> of all your rooms in a
+            simple to <br />
+            <span>use calendar</span>
+          </p>
+        </div>
+        <div className="flex flex-col items-center justify-center">
+          <FaHotel size={25} className="text-[#AA825D]" />
+          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
+            Channel Manager
+          </h3>
+          <p className="text-[#52575d]">
+            iCal Channel Management to Sync <br /> with OTAs and maintain <br />{" "}
+            availability across platforms
+          </p>
+        </div>
+        <div className="flex flex-col items-center justify-center">
+          <FaHotel size={25} className="text-[#AA825D]" />
+          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
+            Email Notifications
+          </h3>
+          <p className="text-[#52575d]">
+            Accurately manage the availability <br /> of all your rooms in a
+            simple to <br />
+            <span>use calendar</span>
+          </p>
+        </div>
+        <div className="flex flex-col items-center justify-center">
+          <FaHotel size={25} className="text-[#AA825D]" />
+          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
+            Multiple Locations
+          </h3>
+          <p className="text-[#52575d]">
+            Manage availability for multiple <br /> hotels or locations with
+            ease <br /> using the category feature
+          </p>
+        </div>
+      </div>
+      <div className="flex flex-row gap-20 items-center justify-center mt-14 font-normal">
+        <div className="flex flex-col items-center justify-center">
+          <FaHotel size={25} className="text-[#AA825D]" />
+          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
+            Booking Conditions
+          </h3>
+          <p className="text-[#52575d]">
+            Accurately manage the availability <br /> of all your rooms in a
+            simple to <br />
+            <span>use calendar</span>
+          </p>
+        </div>
+        <div className="flex flex-col items-center justify-center">
+          <FaHotel size={25} className="text-[#AA825D]" />
+          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-7 tracking-wider">
+            Guest Classes
+          </h3>
+          <p className="text-[#52575d]">
+            Create custom guest classes such <br /> as "Adult", "Child", "Pet",
+            and set <br /> different prices for each
+          </p>
+        </div>
+        <div className="flex flex-col items-center justify-center">
+          <FaHotel size={25} className="text-[#AA825D]" />
+          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
+            Private Rooms
+          </h3>
+          <p className="text-[#52575d]">
+            A standard hotel room which can <br /> only be booked by one private{" "}
+            <br /> group of guests
+            <span>use calendar</span>
+          </p>
+        </div>
+        <div className="flex flex-col items-center justify-center">
+          <FaHotel size={25} className="text-[#AA825D]" />
+          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
+            Dorm Rooms
+          </h3>
+          <p className="text-[#52575d]">
+            A shared dorm room which can be <br /> booked by different groups of{" "}
+            <br /> guests
+          </p>
+        </div>
+      </div>
+      <div className="flex flex-row gap-20 items-center justify-center mt-14 font-normal">
+        <div className="flex flex-col items-center justify-center">
+          <FaHotel size={25} className="text-[#AA825D]" />
+          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-7 tracking-wider">
+            Optional Add-Ons
+          </h3>
+          <p className="text-[#52575d]">
+            Add-on extras to bookings e.g. <br /> airport transfer, breakfast,
+            guided <br /> tour
+          </p>
+        </div>
+        <div className="flex flex-col items-center justify-center">
+          <FaHotel size={25} className="text-[#AA825D]" />
+          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
+            Multiple Rates
+          </h3>
+          <p className="text-[#52575d]">
+            Set multiple rates for a single <br /> accommodation, e.g. <br />{" "}
+            "Full Board", "Half Board"
+          </p>
+        </div>
+        <div className="flex flex-col items-center justify-center">
+          <FaHotel size={25} className="text-[#AA825D]" />
+          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
+            User Accounts
+          </h3>
+          <p className="text-[#52575d]">
+            Save user data for returning <br /> guests and allow them to <br />{" "}
+            login to save time
+          </p>
+        </div>
+        <div className="flex flex-col items-center justify-center">
+          <FaHotel size={25} className="text-[#AA825D]" />
+          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
+            Multi Currency
+          </h3>
+          <p className="text-[#52575d]">
+            Quote prices in multiple <br /> currencies and allow guests to{" "}
+            <br /> switch between them
+          </p>
+        </div>
+      </div>
+      <div className="flex flex-row gap-20 items-center justify-center mt-14 font-normal">
+        <div className="flex flex-col items-center justify-center">
+          <FaHotel size={25} className="text-[#AA825D]" />
+          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-7 tracking-wider">
+            Security Deposits
+          </h3>
+          <p className="text-[#52575d]">
+            Take a percentage of the total <br /> price when booking to ensure
+            the <br /> guest shows up
+          </p>
+        </div>
+        <div className="flex flex-col items-center justify-center">
+          <FaHotel size={25} className="text-[#AA825D]" />
+          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
+            Seasonal Pricing
+          </h3>
+          <p className="text-[#52575d]">
+            Set different pricing depending on <br /> the time of year e.g. low
+            season <br /> and high season
+          </p>
+        </div>
+        <div className="flex flex-col items-center justify-center">
+          <FaHotel size={25} className="text-[#AA825D]" />
+          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
+            Early / Late Pricing
+          </h3>
+          <p className="text-[#52575d]">
+            Charge guests more or less if they <br /> book early or late based
+            of rules <br /> set by you
+          </p>
+        </div>
+        <div className="flex flex-col items-center justify-center">
+          <FaHotel size={25} className="text-[#AA825D]" />
+          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
+            Mobile Devices
+          </h3>
+          <p className="text-[#52575d]">
+            The booking system works great <br /> on mobile devices as well as{" "}
+            <br /> regular desktops
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
