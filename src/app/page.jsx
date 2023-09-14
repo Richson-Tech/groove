@@ -1,11 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { FaHotel } from "react-icons/fa";
-import { MdBorderColor } from "react-icons/md";
+import { FaHotel, FaRestroom } from "react-icons/fa";
+import { MdBorderColor, MdMarkEmailRead, MdAddLocationAlt,MdOutlineMeetingRoom,MdOutlineManageAccounts } from "react-icons/md";
 import { SiGoogletranslate } from "react-icons/si";
 import { VscServerEnvironment } from "react-icons/vsc";
-import { BsEmojiSmileFill, BsCreditCard } from "react-icons/bs";
+import { BsEmojiSmileFill, BsCreditCard, BsPersonSquare } from "react-icons/bs";
+import { SlCalender} from "react-icons/sl";
+import { GrUserManager} from "react-icons/gr";
+import { CgDanger} from "react-icons/cg";
+import { IoIosPeople} from "react-icons/io";
 import png from "../../public/ss.png";
 
 const page = () => {
@@ -307,7 +311,7 @@ const page = () => {
 
       <div className="flex flex-row gap-20 items-center justify-center mt-14 font-normal">
         <div className="flex flex-col items-center justify-center">
-          <FaHotel size={25} className="text-[#AA825D]" />
+          <SlCalender size={25} className="text-[#AA825D]" />
           <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-7 tracking-wider">
             Availability Calendar
           </h3>
@@ -318,7 +322,7 @@ const page = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <FaHotel size={25} className="text-[#AA825D]" />
+          <MdOutlineManageAccounts size={25} className="text-[#AA825D]" />
           <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
             Channel Manager
           </h3>
@@ -328,7 +332,7 @@ const page = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <FaHotel size={25} className="text-[#AA825D]" />
+          <MdMarkEmailRead size={25} className="text-[#AA825D]" />
           <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
             Email Notifications
           </h3>
@@ -339,7 +343,7 @@ const page = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <FaHotel size={25} className="text-[#AA825D]" />
+          <MdAddLocationAlt size={25} className="text-[#AA825D]" />
           <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
             Multiple Locations
           </h3>
@@ -351,7 +355,7 @@ const page = () => {
       </div>
       <div className="flex flex-row gap-20 items-center justify-center mt-14 font-normal">
         <div className="flex flex-col items-center justify-center">
-          <FaHotel size={25} className="text-[#AA825D]" />
+          <CgDanger size={25} className="text-[#AA825D]" />
           <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
             Booking Conditions
           </h3>
@@ -362,7 +366,7 @@ const page = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <FaHotel size={25} className="text-[#AA825D]" />
+          <IoIosPeople size={25} className="text-[#AA825D]" />
           <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-7 tracking-wider">
             Guest Classes
           </h3>
@@ -372,7 +376,7 @@ const page = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <FaHotel size={25} className="text-[#AA825D]" />
+          <MdOutlineMeetingRoom size={25} className="text-[#AA825D]" />
           <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
             Private Rooms
           </h3>
@@ -383,7 +387,7 @@ const page = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <FaHotel size={25} className="text-[#AA825D]" />
+          <FaRestroom size={25} className="text-[#AA825D]" />
           <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
             Dorm Rooms
           </h3>
