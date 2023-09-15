@@ -1,19 +1,44 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
-import { FaHotel, FaRestroom,FaCartPlus, FaUserLock, FaUmbrellaBeach, FaHourglassHalf } from "react-icons/fa";
-import { MdBorderColor, MdMarkEmailRead, MdAddLocationAlt,MdOutlineMeetingRoom,MdOutlineManageAccounts } from "react-icons/md";
+import { React, useState } from "react";
+import {
+  FaHotel,
+  FaRestroom,
+  FaCartPlus,
+  FaUserLock,
+  FaUmbrellaBeach,
+  FaHourglassHalf,
+} from "react-icons/fa";
+import {
+  MdBorderColor,
+  MdMarkEmailRead,
+  MdAddLocationAlt,
+  MdOutlineMeetingRoom,
+  MdOutlineManageAccounts,
+} from "react-icons/md";
 import { SiGoogletranslate } from "react-icons/si";
 import { VscServerEnvironment } from "react-icons/vsc";
-import { BsEmojiSmileFill, BsCreditCard, BsPersonSquare,BsClipboardFill,BsCurrencyExchange } from "react-icons/bs";
-import { SlCalender} from "react-icons/sl";
-import { RiCurrencyFill} from "react-icons/ri";
-import { CgDanger} from "react-icons/cg";
-import { IoIosPeople} from "react-icons/io";
-import { ImMobile} from "react-icons/im";
+import {
+  BsEmojiSmileFill,
+  BsCreditCard,
+  BsPersonSquare,
+  BsClipboardFill,
+  BsCurrencyExchange,
+} from "react-icons/bs";
+import { SlCalender } from "react-icons/sl";
+import { RiCurrencyFill } from "react-icons/ri";
+import { CgDanger } from "react-icons/cg";
+import { IoIosPeople } from "react-icons/io";
+import { ImMobile } from "react-icons/im";
 import png from "../../public/ss.png";
 
 const page = () => {
+  const [showMore, setShowMore] = useState(false);
+
+  const toggleFeatures = () => {
+    setShowMore(!showMore);
+  };
   return (
     <div className="w-full min-h-screen">
       <div className="h-screen bg-zinc-900 relative">
@@ -484,6 +509,32 @@ const page = () => {
           </p>
         </div>
       </div>
+
+      {/* view features  */}
+
+      {/* Toggle button text based on showMore state */}
+      <div className="flex flex-row items-center justify-center mt-10">
+        <button
+          onClick={toggleFeatures}
+          className="h-16 bg-[#9B804E] w-56 text-white hover:bg-slate-900 rounded-md"
+        >
+          {showMore ? "Hide More Features" : "View More Features"}
+        </button>
+        {/* Display additional icons when showMore is true */}
+      </div>
+      {showMore && (
+        <>
+          <div className="flex flex-row items-center justify-center">
+            <h2 className="text-4xl font-['Work_Sans'] leading-9 tracking-wide mt-10">
+              Full <span className="text-[#AA825D]">Control</span> Of Your
+             <br /> <span className="flex items-center justify-center">Bookings</span> 
+            </h2>
+          </div>
+          <ImMobile size={40} className="text-[#AA825D]" />
+          <ImMobile size={40} className="text-[#AA825D]" />
+          <ImMobile size={40} className="text-[#AA825D]" />
+        </>
+      )}
     </div>
   );
 };
