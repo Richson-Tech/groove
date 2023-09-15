@@ -1,15 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { FaHotel, FaRestroom } from "react-icons/fa";
+import { FaHotel, FaRestroom,FaCartPlus, FaUserLock, FaUmbrellaBeach, FaHourglassHalf } from "react-icons/fa";
 import { MdBorderColor, MdMarkEmailRead, MdAddLocationAlt,MdOutlineMeetingRoom,MdOutlineManageAccounts } from "react-icons/md";
 import { SiGoogletranslate } from "react-icons/si";
 import { VscServerEnvironment } from "react-icons/vsc";
-import { BsEmojiSmileFill, BsCreditCard, BsPersonSquare } from "react-icons/bs";
+import { BsEmojiSmileFill, BsCreditCard, BsPersonSquare,BsClipboardFill,BsCurrencyExchange } from "react-icons/bs";
 import { SlCalender} from "react-icons/sl";
-import { GrUserManager} from "react-icons/gr";
+import { RiCurrencyFill} from "react-icons/ri";
 import { CgDanger} from "react-icons/cg";
 import { IoIosPeople} from "react-icons/io";
+import { ImMobile} from "react-icons/im";
 import png from "../../public/ss.png";
 
 const page = () => {
@@ -302,6 +303,8 @@ const page = () => {
       <div className="box-content flex flex-row items-center justify-center mt-10">
         <Image src={png} height={100} width={628} />
       </div>
+
+      {/* powerful features */}
       <div className="flex flex-row items-center justify-center mt-10">
         <h2 className="text-4xl font-['Work_Sans'] leading-10 tracking-wider font-normal">
           Full Of <span className="text-[#AA825D]">Powerful</span> <br />{" "}
@@ -311,7 +314,7 @@ const page = () => {
 
       <div className="flex flex-row gap-20 items-center justify-center mt-14 font-normal">
         <div className="flex flex-col items-center justify-center">
-          <SlCalender size={25} className="text-[#AA825D]" />
+          <SlCalender size={40} className="text-[#AA825D]" />
           <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-7 tracking-wider">
             Availability Calendar
           </h3>
@@ -322,7 +325,7 @@ const page = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <MdOutlineManageAccounts size={25} className="text-[#AA825D]" />
+          <MdOutlineManageAccounts size={40} className="text-[#AA825D]" />
           <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
             Channel Manager
           </h3>
@@ -332,7 +335,7 @@ const page = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <MdMarkEmailRead size={25} className="text-[#AA825D]" />
+          <MdMarkEmailRead size={40} className="text-[#AA825D]" />
           <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
             Email Notifications
           </h3>
@@ -343,7 +346,7 @@ const page = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <MdAddLocationAlt size={25} className="text-[#AA825D]" />
+          <MdAddLocationAlt size={40} className="text-[#AA825D]" />
           <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
             Multiple Locations
           </h3>
@@ -355,7 +358,7 @@ const page = () => {
       </div>
       <div className="flex flex-row gap-20 items-center justify-center mt-14 font-normal">
         <div className="flex flex-col items-center justify-center">
-          <CgDanger size={25} className="text-[#AA825D]" />
+          <CgDanger size={40} className="text-[#AA825D]" />
           <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
             Booking Conditions
           </h3>
@@ -366,7 +369,7 @@ const page = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <IoIosPeople size={25} className="text-[#AA825D]" />
+          <IoIosPeople size={40} className="text-[#AA825D]" />
           <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-7 tracking-wider">
             Guest Classes
           </h3>
@@ -376,7 +379,7 @@ const page = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <MdOutlineMeetingRoom size={25} className="text-[#AA825D]" />
+          <MdOutlineMeetingRoom size={40} className="text-[#AA825D]" />
           <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
             Private Rooms
           </h3>
@@ -387,7 +390,7 @@ const page = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <FaRestroom size={25} className="text-[#AA825D]" />
+          <FaRestroom size={40} className="text-[#AA825D]" />
           <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
             Dorm Rooms
           </h3>
@@ -399,7 +402,7 @@ const page = () => {
       </div>
       <div className="flex flex-row gap-20 items-center justify-center mt-14 font-normal">
         <div className="flex flex-col items-center justify-center">
-          <FaHotel size={25} className="text-[#AA825D]" />
+          <FaCartPlus size={40} className="text-[#AA825D]" />
           <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-7 tracking-wider">
             Optional Add-Ons
           </h3>
@@ -409,7 +412,7 @@ const page = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <FaHotel size={25} className="text-[#AA825D]" />
+          <BsClipboardFill size={40} className="text-[#AA825D]" />
           <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
             Multiple Rates
           </h3>
@@ -419,7 +422,7 @@ const page = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <FaHotel size={25} className="text-[#AA825D]" />
+          <FaUserLock size={40} className="text-[#AA825D]" />
           <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
             User Accounts
           </h3>
@@ -429,7 +432,7 @@ const page = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <FaHotel size={25} className="text-[#AA825D]" />
+          <BsCurrencyExchange size={40} className="text-[#AA825D]" />
           <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
             Multi Currency
           </h3>
@@ -441,7 +444,7 @@ const page = () => {
       </div>
       <div className="flex flex-row gap-20 items-center justify-center mt-14 font-normal">
         <div className="flex flex-col items-center justify-center">
-          <FaHotel size={25} className="text-[#AA825D]" />
+          <RiCurrencyFill size={40} className="text-[#AA825D]" />
           <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-7 tracking-wider">
             Security Deposits
           </h3>
@@ -451,7 +454,7 @@ const page = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <FaHotel size={25} className="text-[#AA825D]" />
+          <FaUmbrellaBeach size={40} className="text-[#AA825D]" />
           <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
             Seasonal Pricing
           </h3>
@@ -461,7 +464,7 @@ const page = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <FaHotel size={25} className="text-[#AA825D]" />
+          <FaHourglassHalf size={40} className="text-[#AA825D]" />
           <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
             Early / Late Pricing
           </h3>
@@ -471,7 +474,7 @@ const page = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <FaHotel size={25} className="text-[#AA825D]" />
+          <ImMobile size={40} className="text-[#AA825D]" />
           <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
             Mobile Devices
           </h3>
