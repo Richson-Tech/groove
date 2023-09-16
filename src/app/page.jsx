@@ -516,7 +516,7 @@ const page = () => {
       <div className="flex flex-row items-center justify-center mt-10">
         <button
           onClick={toggleFeatures}
-          className="h-16 bg-[#9B804E] w-56 text-white hover:bg-slate-900 rounded-md"
+          className="h-16 bg-[#9B804E] w-56 text-white hover:bg-slate-900 rounded-md mb-24"
         >
           {showMore ? "Hide More Features" : "View More Features"}
         </button>
@@ -527,188 +527,201 @@ const page = () => {
           <div className="flex flex-row items-center justify-center">
             <h2 className="text-4xl font-['Work_Sans'] leading-9 tracking-wide mt-10">
               Full <span className="text-[#AA825D]">Control</span> Of Your
-             <br /> <span className="flex items-center justify-center">Bookings</span> 
+              <br />{" "}
+              <span className="flex items-center justify-center">Bookings</span>
             </h2>
           </div>
 
           <div className="flex flex-row gap-20 items-center justify-center mt-14 font-normal">
-        <div className="flex flex-col items-center justify-center">
-          <SlCalender size={40} className="text-[#AA825D]" />
-          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-7 tracking-wider">
-            Availability Calendar
-          </h3>
-          <p className="text-[#52575d]">
-            Accurately manage the availability <br /> of all your rooms in a
-            simple to <br />
-            <span>use calendar</span>
-          </p>
-        </div>
-        <div className="flex flex-col items-center justify-center">
-          <MdOutlineManageAccounts size={40} className="text-[#AA825D]" />
-          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
-            Channel Manager
-          </h3>
-          <p className="text-[#52575d]">
-            iCal Channel Management to Sync <br /> with OTAs and maintain <br />{" "}
-            availability across platforms
-          </p>
-        </div>
-        <div className="flex flex-col items-center justify-center">
-          <MdMarkEmailRead size={40} className="text-[#AA825D]" />
-          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
-            Email Notifications
-          </h3>
-          <p className="text-[#52575d]">
-            Accurately manage the availability <br /> of all your rooms in a
-            simple to <br />
-            <span>use calendar</span>
-          </p>
-        </div>
-        <div className="flex flex-col items-center justify-center">
-          <MdAddLocationAlt size={40} className="text-[#AA825D]" />
-          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
-            Multiple Locations
-          </h3>
-          <p className="text-[#52575d]">
-            Manage availability for multiple <br /> hotels or locations with
-            ease <br /> using the category feature
-          </p>
-        </div>
-      </div>
-      <div className="flex flex-row gap-20 items-center justify-center mt-14 font-normal">
-        <div className="flex flex-col items-center justify-center">
-          <SlCalender size={40} className="text-[#AA825D]" />
-          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-7 tracking-wider">
-            Availability Calendar
-          </h3>
-          <p className="text-[#52575d]">
-            Accurately manage the availability <br /> of all your rooms in a
-            simple to <br />
-            <span>use calendar</span>
-          </p>
-        </div>
-        <div className="flex flex-col items-center justify-center">
-          <MdOutlineManageAccounts size={40} className="text-[#AA825D]" />
-          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
-            Channel Manager
-          </h3>
-          <p className="text-[#52575d]">
-            iCal Channel Management to Sync <br /> with OTAs and maintain <br />{" "}
-            availability across platforms
-          </p>
-        </div>
-        <div className="flex flex-col items-center justify-center">
-          <MdMarkEmailRead size={40} className="text-[#AA825D]" />
-          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
-            Email Notifications
-          </h3>
-          <p className="text-[#52575d]">
-            Accurately manage the availability <br /> of all your rooms in a
-            simple to <br />
-            <span>use calendar</span>
-          </p>
-        </div>
-        <div className="flex flex-col items-center justify-center">
-          <MdAddLocationAlt size={40} className="text-[#AA825D]" />
-          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
-            Multiple Locations
-          </h3>
-          <p className="text-[#52575d]">
-            Manage availability for multiple <br /> hotels or locations with
-            ease <br /> using the category feature
-          </p>
-        </div>
-      </div>
-      <div className="flex flex-row gap-20 items-center justify-center mt-14 font-normal">
-        <div className="flex flex-col items-center justify-center">
-          <SlCalender size={40} className="text-[#AA825D]" />
-          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-7 tracking-wider">
-            Availability Calendar
-          </h3>
-          <p className="text-[#52575d]">
-            Accurately manage the availability <br /> of all your rooms in a
-            simple to <br />
-            <span>use calendar</span>
-          </p>
-        </div>
-        <div className="flex flex-col items-center justify-center">
-          <MdOutlineManageAccounts size={40} className="text-[#AA825D]" />
-          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
-            Channel Manager
-          </h3>
-          <p className="text-[#52575d]">
-            iCal Channel Management to Sync <br /> with OTAs and maintain <br />{" "}
-            availability across platforms
-          </p>
-        </div>
-        <div className="flex flex-col items-center justify-center">
-          <MdMarkEmailRead size={40} className="text-[#AA825D]" />
-          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
-            Email Notifications
-          </h3>
-          <p className="text-[#52575d]">
-            Accurately manage the availability <br /> of all your rooms in a
-            simple to <br />
-            <span>use calendar</span>
-          </p>
-        </div>
-        <div className="flex flex-col items-center justify-center">
-          <MdAddLocationAlt size={40} className="text-[#AA825D]" />
-          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
-            Multiple Locations
-          </h3>
-          <p className="text-[#52575d]">
-            Manage availability for multiple <br /> hotels or locations with
-            ease <br /> using the category feature
-          </p>
-        </div>
-      </div>
-      <div className="flex flex-row gap-20 items-center justify-center mt-14 font-normal">
-        <div className="flex flex-col items-center justify-center">
-          <SlCalender size={40} className="text-[#AA825D]" />
-          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-7 tracking-wider">
-            Availability Calendar
-          </h3>
-          <p className="text-[#52575d]">
-            Accurately manage the availability <br /> of all your rooms in a
-            simple to <br />
-            <span>use calendar</span>
-          </p>
-        </div>
-        <div className="flex flex-col items-center justify-center">
-          <MdOutlineManageAccounts size={40} className="text-[#AA825D]" />
-          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
-            Channel Manager
-          </h3>
-          <p className="text-[#52575d]">
-            iCal Channel Management to Sync <br /> with OTAs and maintain <br />{" "}
-            availability across platforms
-          </p>
-        </div>
-        <div className="flex flex-col items-center justify-center">
-          <MdMarkEmailRead size={40} className="text-[#AA825D]" />
-          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
-            Email Notifications
-          </h3>
-          <p className="text-[#52575d]">
-            Accurately manage the availability <br /> of all your rooms in a
-            simple to <br />
-            <span>use calendar</span>
-          </p>
-        </div>
-        <div className="flex flex-col items-center justify-center">
-          <MdAddLocationAlt size={40} className="text-[#AA825D]" />
-          <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
-            Multiple Locations
-          </h3>
-          <p className="text-[#52575d]">
-            Manage availability for multiple <br /> hotels or locations with
-            ease <br /> using the category feature
-          </p>
-        </div>
-      </div>
+            <div className="flex flex-col items-center justify-center">
+              <SlCalender size={40} className="text-[#AA825D]" />
+              <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-7 tracking-wider">
+                Availability Calendar
+              </h3>
+              <p className="text-[#52575d]">
+                Accurately manage the availability <br /> of all your rooms in a
+                simple to <br />
+                <span>use calendar</span>
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <MdOutlineManageAccounts size={40} className="text-[#AA825D]" />
+              <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
+                Channel Manager
+              </h3>
+              <p className="text-[#52575d]">
+                iCal Channel Management to Sync <br /> with OTAs and maintain{" "}
+                <br /> availability across platforms
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <MdMarkEmailRead size={40} className="text-[#AA825D]" />
+              <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
+                Email Notifications
+              </h3>
+              <p className="text-[#52575d]">
+                Accurately manage the availability <br /> of all your rooms in a
+                simple to <br />
+                <span>use calendar</span>
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <MdAddLocationAlt size={40} className="text-[#AA825D]" />
+              <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
+                Multiple Locations
+              </h3>
+              <p className="text-[#52575d]">
+                Manage availability for multiple <br /> hotels or locations with
+                ease <br /> using the category feature
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-row gap-20 items-center justify-center mt-14 font-normal">
+            <div className="flex flex-col items-center justify-center">
+              <SlCalender size={40} className="text-[#AA825D]" />
+              <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-7 tracking-wider">
+                Availability Calendar
+              </h3>
+              <p className="text-[#52575d]">
+                Accurately manage the availability <br /> of all your rooms in a
+                simple to <br />
+                <span>use calendar</span>
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <MdOutlineManageAccounts size={40} className="text-[#AA825D]" />
+              <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
+                Channel Manager
+              </h3>
+              <p className="text-[#52575d]">
+                iCal Channel Management to Sync <br /> with OTAs and maintain{" "}
+                <br /> availability across platforms
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <MdMarkEmailRead size={40} className="text-[#AA825D]" />
+              <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
+                Email Notifications
+              </h3>
+              <p className="text-[#52575d]">
+                Accurately manage the availability <br /> of all your rooms in a
+                simple to <br />
+                <span>use calendar</span>
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <MdAddLocationAlt size={40} className="text-[#AA825D]" />
+              <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
+                Multiple Locations
+              </h3>
+              <p className="text-[#52575d]">
+                Manage availability for multiple <br /> hotels or locations with
+                ease <br /> using the category feature
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-row gap-20 items-center justify-center mt-14 font-normal">
+            <div className="flex flex-col items-center justify-center">
+              <SlCalender size={40} className="text-[#AA825D]" />
+              <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-7 tracking-wider">
+                Availability Calendar
+              </h3>
+              <p className="text-[#52575d]">
+                Accurately manage the availability <br /> of all your rooms in a
+                simple to <br />
+                <span>use calendar</span>
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <MdOutlineManageAccounts size={40} className="text-[#AA825D]" />
+              <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
+                Channel Manager
+              </h3>
+              <p className="text-[#52575d]">
+                iCal Channel Management to Sync <br /> with OTAs and maintain{" "}
+                <br /> availability across platforms
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <MdMarkEmailRead size={40} className="text-[#AA825D]" />
+              <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
+                Email Notifications
+              </h3>
+              <p className="text-[#52575d]">
+                Accurately manage the availability <br /> of all your rooms in a
+                simple to <br />
+                <span>use calendar</span>
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <MdAddLocationAlt size={40} className="text-[#AA825D]" />
+              <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
+                Multiple Locations
+              </h3>
+              <p className="text-[#52575d]">
+                Manage availability for multiple <br /> hotels or locations with
+                ease <br /> using the category feature
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-row gap-20 items-center justify-center mt-14 font-normal mb-24">
+            <div className="flex flex-col items-center justify-center">
+              <SlCalender size={40} className="text-[#AA825D]" />
+              <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-7 tracking-wider">
+                Availability Calendar
+              </h3>
+              <p className="text-[#52575d]">
+                Accurately manage the availability <br /> of all your rooms in a
+                simple to <br />
+                <span>use calendar</span>
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <MdOutlineManageAccounts size={40} className="text-[#AA825D]" />
+              <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
+                Channel Manager
+              </h3>
+              <p className="text-[#52575d]">
+                iCal Channel Management to Sync <br /> with OTAs and maintain{" "}
+                <br /> availability across platforms
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <MdMarkEmailRead size={40} className="text-[#AA825D]" />
+              <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
+                Email Notifications
+              </h3>
+              <p className="text-[#52575d]">
+                Accurately manage the availability <br /> of all your rooms in a
+                simple to <br />
+                <span>use calendar</span>
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <MdAddLocationAlt size={40} className="text-[#AA825D]" />
+              <h3 className="text-2xl font-['Work_Sans'] mt-5 mb-9 tracking-wider">
+                Multiple Locations
+              </h3>
+              <p className="text-[#52575d]">
+                Manage availability for multiple <br /> hotels or locations with
+                ease <br /> using the category feature
+              </p>
+            </div>
+          </div>
         </>
       )}
+
+      {/* quotes  */}
+      <div className="h-96 bg-zinc-900">
+        <div className="flex flex-row items-center justify-center">
+          <h2 className="font-['Work_Sans'] text-white text-4xl leading-10 tracking-wider mt-10 font-normal">
+            Trusted By <span className="text-[#AA825D]">Hotels</span> <br />{" "}
+            <span className="flex items-center justify-center">
+              Big & Small
+            </span>{" "}
+          </h2>
+        </div>
+      </div>
     </div>
   );
 };
