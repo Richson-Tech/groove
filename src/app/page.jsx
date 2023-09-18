@@ -22,7 +22,6 @@ import { VscServerEnvironment } from "react-icons/vsc";
 import {
   BsEmojiSmileFill,
   BsCreditCard,
-  BsPersonSquare,
   BsClipboardFill,
   BsCurrencyExchange,
 } from "react-icons/bs";
@@ -31,6 +30,7 @@ import { RiCurrencyFill } from "react-icons/ri";
 import { CgDanger } from "react-icons/cg";
 import { IoIosPeople } from "react-icons/io";
 import { ImMobile } from "react-icons/im";
+import { BiSolidQuoteAltLeft } from "react-icons/bi";
 import png from "../../public/ss.png";
 
 const page = () => {
@@ -720,6 +720,27 @@ const page = () => {
               Big & Small
             </span>{" "}
           </h2>
+        </div>
+        <div className="flex flex-row gap-46 items-center justify-center mt-10">
+          <div className="flex flex-row items-center justify-center">
+            <BiSolidQuoteAltLeft size={40} className="text-[#AA825D] " />
+          </div>
+          <div className="flex flex-row gap-46 items-center justify-center mt-42">
+          <p className="text-white flex flex-1 flex-row items-center justify-center ">
+              “Your brand is what other people say about you when you are not in
+              the room.” Jeff Bezos
+            </p>
+            Jeff Bezos
+          </div>
+
+          <div className="flex flex-row items-center justify-center">
+            <BiSolidQuoteAltLeft size={40} className="text-[#AA825D]" />
+            <p className="text-white">
+              “Find a way to be personal with your customers and connect with
+              them on a human level.” Andrew Reid
+            </p>
+            Andrew Reid
+          </div>
         </div>
       </div>
     </div>
