@@ -9,6 +9,7 @@ import {
   FaUserLock,
   FaUmbrellaBeach,
   FaHourglassHalf,
+  FaUser,
 } from "react-icons/fa";
 import {
   MdBorderColor,
@@ -721,25 +722,34 @@ const page = () => {
             </span>{" "}
           </h2>
         </div>
-        <div className="flex flex-row gap-46 items-center justify-center mt-10">
+        <div className="flex flex-row justify items-center justify-center gap-96 mt-10">
           <div className="flex flex-row items-center justify-center">
-            <BiSolidQuoteAltLeft size={40} className="text-[#AA825D] " />
-          </div>
-          <div className="flex flex-row gap-46 items-center justify-center mt-42">
-          <p className="text-white flex flex-1 flex-row items-center justify-center ">
-              “Your brand is what other people say about you when you are not in
-              the room.” Jeff Bezos
+            <BiSolidQuoteAltLeft size={40} className="text-[#AA825D] mb-28" />
+
+            <p className="text-white text-xl font-['Work_Sans'] flex flex-1 flex-row items-center justify-center ">
+              “Your brand is what other people <br /> say about you when you are
+              not in the room.” <br /> - Jeff Bezos
             </p>
-            Jeff Bezos
           </div>
 
           <div className="flex flex-row items-center justify-center">
-            <BiSolidQuoteAltLeft size={40} className="text-[#AA825D]" />
-            <p className="text-white">
-              “Find a way to be personal with your customers and connect with
-              them on a human level.” Andrew Reid
+            <BiSolidQuoteAltLeft size={40} className="text-[#AA825D] mb-28" />
+            <p className="text-white text-xl font-['Work_Sans'] flex flex-1 flex-row items-center justify-center">
+              “Find a way to be personal with your customers <br /> and connect
+              with them on a human level.” <br /> - Andrew Reid
             </p>
-            Andrew Reid
+          </div>
+        </div>
+        <div className="flex flex-row justify items-center justify-center gap-96 space-x-80">
+          <div>
+            <div className="w-16 h-16 rounded-full bg-[#AA825D]">
+              <div className="flex flex-row items-center justify-center">
+                <FaUser size={40} className="text-white " />
+              </div>
+            </div>
+          </div>
+          <div className="">
+            <div className="w-16 h-16 rounded-full bg-[#AA825D]"></div>
           </div>
         </div>
       </div>
