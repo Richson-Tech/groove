@@ -740,16 +740,14 @@ const page = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-row justify items-center justify-center gap-96 space-x-80">
-          <div>
-            <div className="w-16 h-16 rounded-full bg-[#AA825D]">
-              <div className="flex flex-row items-center justify-center">
-                <FaUser size={40} className="text-white " />
-              </div>
-            </div>
+        <div className="flex flex-row items-center justify-center gap-96 space-x-80 mb-24">
+          <div className="w-16 h-16 rounded-full bg-[#AA825D] flex justify-center items-center">
+            <FaUser size={30} className="text-white " />
           </div>
           <div className="">
-            <div className="w-16 h-16 rounded-full bg-[#AA825D]"></div>
+            <div className="w-16 h-16 rounded-full bg-[#AA825D] flex justify-center items-center">
+              <FaUser size={30} className="text-white " />
+            </div>
           </div>
         </div>
       </div>
