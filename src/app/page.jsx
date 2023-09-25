@@ -751,6 +751,28 @@ const page = () => {
           </div>
         </div>
       </div>
+      <div className="h-96 bg-white mt-12">
+        <div className="flex flex-1 flex-row items-center justify-center">
+          <div className="flex items-center justify-center space-x-4">
+            <Image src={png} height={100} width={628} />
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <h3>
+              Multi-Language <span className="text-[#AA825D]">Translation</span>{" "}
+              <br />
+              Plugin Included
+            </h3>
+
+            <p className="text-[#52575d] flex-row items-center justify-center">
+              Easily translate your website into multiple languages using Soho
+              Hotel's custom built translation plugin. And yes don't worry
+              accommodation availability is synced between languages, so if
+              someone books a room in one language it will also be blocked in
+              all the other languages.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
