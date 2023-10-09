@@ -1,8 +1,8 @@
 const links = [
     {
         id: 1,
-        title: "Home",
-        url: "/"
+        title: "Vacations",
+        url: "/vacations"
     },
     {
         id: 2,
