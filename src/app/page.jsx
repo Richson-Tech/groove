@@ -80,7 +80,7 @@ const page = () => {
 
       {/* hospitabilities section */}
 
-      <div className="h-96 bg-white text-2xl mt-10 mb-60">
+      <div className="h-max bg-white text-2xl mt-10 mb-57">
         <div className="flex items-center justify-center flex-wrap flex-col">
           <h2 className="font-['Work_Sans'] text-5xl mb-10">
             All In One Solution <br />
@@ -91,19 +91,19 @@ const page = () => {
         </div>
         {/* divs for solutions for hotels */}
 
-        <div className="flex flex-row justify-between gap-5 mb-16">
+        <div className="flex flex-row gap-20 items-center justify-center mt-14 font-normal">
           <div className="flex flex-1 flex-col pl-20">
-            <div className="flex justify-center items-center w-16 h-16 rounded-full bg-[#E5D9CE]">
+            <div className="flex justify-center items-center w-16 h-16 rounded-full bg-[#E5D9CE] mb-10">
               <FaHotel size={25} className="text-[#AA825D]" />
             </div>
             <h2>Prebuilt Websites</h2>
-            <p>
+            <p className="text-[#52575d]">
               All of the demo websites can be easily imported making it
               incredible easy to get started building your site.
             </p>
           </div>
           <div className="flex flex-1 flex-col">
-            <div className="flex justify-center items-center w-16 h-16 rounded-full bg-[#E5D9CE]">
+            <div className="flex justify-center items-center w-16 h-16 rounded-full bg-[#E5D9CE] mb-10">
               <MdBorderColor size={25} className="text-[#AA825D]" />
             </div>
             <h2>Booking Management</h2>
@@ -113,7 +113,7 @@ const page = () => {
             </p>
           </div>
           <div className="flex flex-1 flex-col">
-            <div className="flex justify-center items-center w-16 h-16 rounded-full bg-[#E5D9CE]">
+            <div className="flex justify-center items-center w-16 h-16 rounded-full bg-[#E5D9CE] mb-10">
               <SiGoogletranslate size={25} className="text-[#AA825D]" />
             </div>
             <h2>Language Translation</h2>
@@ -125,7 +125,7 @@ const page = () => {
         </div>
         <div className="flex flex-row justify-between gap-5 mb-20">
           <div className="flex flex-1 flex-col pl-20">
-            <div className="flex justify-center items-center w-16 h-16 rounded-full bg-[#E5D9CE]">
+            <div className="flex justify-center items-center w-16 h-16 rounded-full bg-[#E5D9CE] mb-10">
               <VscServerEnvironment size={25} className="text-[#AA825D]" />
             </div>
             <h2>Convinient Environment</h2>
@@ -135,7 +135,7 @@ const page = () => {
             </p>
           </div>
           <div className="flex flex-1 flex-col">
-            <div className="flex justify-center items-center w-16 h-16 rounded-full bg-[#E5D9CE]">
+            <div className="flex justify-center items-center w-16 h-16 rounded-full bg-[#E5D9CE] mb-10">
               <BsEmojiSmileFill size={25} className="text-[#AA825D]" />
             </div>
             <h2>Customer Friendly</h2>
@@ -145,7 +145,7 @@ const page = () => {
             </p>
           </div>
           <div className="flex flex-1 flex-col">
-            <div className="flex justify-center items-center w-16 h-16 rounded-full bg-[#E5D9CE]">
+            <div className="flex justify-center items-center w-16 h-16 rounded-full bg-[#E5D9CE] mb-10">
               <BsCreditCard size={25} className="text-[#AA825D]" />
             </div>
             <h2>Online Payments</h2>
@@ -751,12 +751,12 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className="h-96 bg-white mt-12">
+      <div className="h-max bg-white mt-12">
         <div className="flex flex-row justify-center items-center mt-10 gap-x-52">
           <div className="flex justify-center items-center">
-            <Image src={png} height={100} width={628} />
+            <Image src={png} height={60} width={628} />
           </div>
-          <div className="flex justify-center items-center  ">
+          <div className="flex justify-center items-center mb-10">
             <div className="flex-row justify-center items-center mb-54">
               <h3 className="">
                 Multi-Language{" "}
