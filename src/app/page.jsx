@@ -80,7 +80,7 @@ const page = () => {
 
       {/* hospitabilities section */}
 
-      <div className="h-max bg-white text-2xl mt-10 mb-57">
+      <div className="h-max bg-white text-2xl mt-10 mb-56">
         <div className="flex items-center justify-center flex-wrap flex-col">
           <h2 className="font-['Work_Sans'] text-5xl mb-10">
             All In One Solution <br />
@@ -91,67 +91,71 @@ const page = () => {
         </div>
         {/* divs for solutions for hotels */}
 
-        <div className="flex flex-row gap-20 items-center justify-center mt-14 font-normal">
-          <div className="flex flex-1 flex-col pl-20">
+        <div className="flex flex-row gap-20 items-center justify-center">
+          <div className="flex flex-col items-center justify-center">
             <div className="flex justify-center items-center w-16 h-16 rounded-full bg-[#E5D9CE] mb-10">
               <FaHotel size={25} className="text-[#AA825D]" />
             </div>
-            <h2>Prebuilt Websites</h2>
-            <p className="text-[#52575d]">
-              All of the demo websites can be easily imported making it
-              incredible easy to get started building your site.
+            <h2 className="text-2xl font-['Work_Sans']">Prebuilt Websites</h2>
+            <p className="text-base text-[#52575d]">
+              All of the demo websites can be easily <br /> imported making it
+              incredible easy to get <br /> started building your site.
             </p>
           </div>
-          <div className="flex flex-1 flex-col">
+          <div className="flex flex-col items-center justify-center">
             <div className="flex justify-center items-center w-16 h-16 rounded-full bg-[#E5D9CE] mb-10">
               <MdBorderColor size={25} className="text-[#AA825D]" />
             </div>
-            <h2>Booking Management</h2>
-            <p>
-              Accommodation availability is automatically managed and can be
-              viewed in the calendar dashboard.
+            <h2 className="text-2xl font-['Work_Sans']">Booking Management</h2>
+            <p className="text-base text-[#52575d]">
+              Accommodation availability is <br /> automatically managed and can
+              be viewed <br /> in the calendar dashboard.
             </p>
           </div>
-          <div className="flex flex-1 flex-col">
+          <div className="flex flex-col items-center justify-center">
             <div className="flex justify-center items-center w-16 h-16 rounded-full bg-[#E5D9CE] mb-10">
               <SiGoogletranslate size={25} className="text-[#AA825D]" />
             </div>
-            <h2>Language Translation</h2>
-            <p>
-              A custom built multi language translation plugin is included
-              allowing you to easily translate your site.
+            <h2 className="text-2xl font-['Work_Sans']">
+              Language Translation
+            </h2>
+            <p className="text-base text-[#52575d]">
+              A custom built multi language translation <br /> plugin is
+              included allowing you to easily translate your site.
             </p>
           </div>
         </div>
-        <div className="flex flex-row justify-between gap-5 mb-20">
-          <div className="flex flex-1 flex-col pl-20">
+        <div className="flex flex-row gap-20 items-center justify-center mt-10">
+          <div className="flex flex-col items-center justify-center">
             <div className="flex justify-center items-center w-16 h-16 rounded-full bg-[#E5D9CE] mb-10">
               <VscServerEnvironment size={25} className="text-[#AA825D]" />
             </div>
-            <h2>Convinient Environment</h2>
-            <p>
-              All pages and content can be edited using WP Bakery's drag and
-              drop editor, no coding required.
+            <h2 className="text-2xl font-['Work_Sans']">
+              Convinient Environment
+            </h2>
+            <p className="text-base text-[#52575d]">
+              All pages and content can be edited <br /> using WP Bakery's drag
+              and drop editor, <br /> no coding required.
             </p>
           </div>
-          <div className="flex flex-1 flex-col">
+          <div className="flex flex-col items-center justify-center">
             <div className="flex justify-center items-center w-16 h-16 rounded-full bg-[#E5D9CE] mb-10">
               <BsEmojiSmileFill size={25} className="text-[#AA825D]" />
             </div>
-            <h2>Customer Friendly</h2>
-            <p>
-              Looks great and functions perfectly on mobile phones, tablets,
-              laptops, and desktop computers.
+            <h2 className="text-2xl font-['Work_Sans']">Customer Friendly</h2>
+            <p className="text-base text-[#52575d]">
+              Looks great and functions perfectly <br /> on mobile phones,
+              tablets, laptops, <br /> and desktop computers.
             </p>
           </div>
-          <div className="flex flex-1 flex-col">
+          <div className="flex flex-col items-center justify-center">
             <div className="flex justify-center items-center w-16 h-16 rounded-full bg-[#E5D9CE] mb-10">
               <BsCreditCard size={25} className="text-[#AA825D]" />
             </div>
-            <h2>Online Payments</h2>
-            <p>
-              WooCommerce support allows you to collect credit card payments in
-              a wide variety of local currencies.
+            <h2 className="text-2xl font-['Work_Sans']">Online Payments</h2>
+            <p className="text-base text-[#52575d]">
+              WooCommerce support allows you <br /> to collect credit card
+              payments in a <br /> wide variety of local currencies.
             </p>
           </div>
         </div>
