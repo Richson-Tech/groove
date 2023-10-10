@@ -3,14 +3,15 @@ import React from 'react'
 import links from '@/data/data'
 
 const Navbar = () => {
+
   return (
-    <div className='text-lg flex justify-between h-20 bg-[#FAF5E7] text text-black'>
+    <div className=' flex justify-between h-20 bg-[#FAF5E7] text text-black'>
      <Link href="/" className='flex items-center p-4 text-3xl font-bold'>
      Groove
      </Link>
-     <div className='flex items-center gap-20'>
-    {links.map((link) => 
-    <Link key={link.id} href={link.url}>{link.title}</Link>
+     <div className='flex items-center justify-end gap-10 ml-32 text-base font-medium'>
+    {links.map(({id,url,title}) => 
+    <Link key={id} className='hover:text-[#9B804E]' href={url}>{title}</Link>
     )}
      </div>
     <Link href='/booknow' className='flex items-center p-4'>
@@ -23,3 +24,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+
