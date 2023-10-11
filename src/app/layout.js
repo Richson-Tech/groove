@@ -1,12 +1,13 @@
 import Navbar from "@/components/Navbar/Navbar";
 import "./globals.css";
-import { Inter, Crimson_Pro, Yeseva_One, Work_Sans } from "next/font/google";
+import { Inter, Crimson_Pro, Yeseva_One, Work_Sans,Poppins } from "next/font/google";
 import Footer from "@/components/Footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 const crimson = Crimson_Pro({ subsets: ["latin"] });
 const yeseva = Yeseva_One({ subsets: ["latin"], weight: ["400"] });
 const WorkSans = Work_Sans({ subsets: ["latin"], weight: ["400"] });
+const poppins = Poppins({ subsets: ["latin"], weight: ["400", "500"] });
 // const Crimson_Pro = Crimson_Pro({ subsets: ['latin'] })
 
 export const metadata = {
