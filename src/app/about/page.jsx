@@ -16,13 +16,14 @@ const About = () => {
           className={styles.img}
           src="https://plus.unsplash.com/premium_photo-1661676056771-f6c2711249e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGhvdGVsfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
           fill={true}
-          
         />
         <div className="text-center absolute inset-0 flex items-center justify-center">
           <h2 className=" text-4xl font-bold font-['Work_Sans']">About Us</h2>
         </div>
-        <div className="absolute inset-0 bg-yellow-900 opacity-50"></div>
+        <div className="absolute inset-0 bg-yellow-900 opacity-20"></div>
       </div>
+      {/* about our history section  */}
+
       <div className="h-4/5 bg-white">
         <div className="flex flex-row items-center justify-center gap-20 mt-20">
           <div className="flex flex-col items-start justify-center mb-48">
@@ -36,8 +37,14 @@ const About = () => {
               behavior on the job is <br /> beyond reproach. inappropriate
               behavior is often laughed.
             </p>
-            <div className="flex flex-col items-center justify-center h-10 w-56 bg-black mt-10">
-              <h2 className="text-white text-base font-[poppings]">REQUEST CUSTOM PRICE</h2>
+
+            <div className="relative h-10 w-56 mt-10">
+              <div className="absolute left-0 top-0 w-0 h-full bg-amber-600 transition-all duration-300 ease-in-out"></div>
+              <div className="flex flex-col items-center justify-center h-full bg-black hover:bg-[#AA825D] transition-all duration-700 ease-in-out relative">
+                <h2 className="text-white text-base font-[poppins]">
+                  REQUEST CUSTOM PRICE
+                </h2>
+              </div>
             </div>
           </div>
           <div className="flex items-center justify-center">
@@ -51,12 +58,35 @@ const About = () => {
           </div>
         </div>
       </div>
+      {/* facilities area */}
 
-      <div style="background-image: url(https://plus.unsplash.com/premium_photo-1670360414903-19e5832f8bc4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60)"
-      width={300}
-      height={300}
-      className="h-4/5 bg">
-
+      <div className="h-5/6">
+        <div className={styles.imgsContainer}>
+          <Image
+            alt="An hotel badge photo"
+            className={styles.img}
+            src="https://images.unsplash.com/photo-1631049552057-403cdb8f0658?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60"
+            fill={true}
+          />
+          <div className="absolute inset-0 bg-slate-800 opacity-90"></div>
+          <div className="text-center absolute inset-0 flex flex-col items-center justify-start">
+            <h2 className="text-white pt-20 text-4xl font-[poppins] font-semibold leading-10 tracking-normal">
+              Royal Facilities
+            </h2>
+            <p className="text-base font-[poppins] pt-2 text-white leading-9">
+              Who are in extremely love with eco friendly system.
+            </p>
+          </div>
+          <div className="absolute flex flex-row items-center justify-center">
+            <div className="w-64 p-4 mx-auto bg-white rounded-lg shadow-lg">
+              <h4 className="text-xl font-bold mb-2">Restaurant</h4>
+              <p className="text-sm text-gray-700">
+                Usage of the Internet is becoming more common due to rapid
+                advancement of technology and power.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

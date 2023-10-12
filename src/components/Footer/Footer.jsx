@@ -7,6 +7,8 @@ const Footer = () => {
     const getYear = () => setYear(new Date().getFullYear());
     getYear();
   }, []);
+ 
+
 
   return (
     <div className="mt-20">
