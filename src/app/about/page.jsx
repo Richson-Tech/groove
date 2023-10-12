@@ -60,7 +60,7 @@ const About = () => {
       </div>
       {/* facilities area */}
 
-      <div className="h-5/6">
+      <div className="h-max">
         <div className={styles.imgsContainer}>
           <Image
             alt="An hotel badge photo"
@@ -77,15 +77,110 @@ const About = () => {
               Who are in extremely love with eco friendly system.
             </p>
           </div>
-          <div className="absolute flex flex-row items-center justify-center">
-            <div className="w-64 p-4 mx-auto bg-white rounded-lg shadow-lg">
+          {/* cards for facilities area */}
+
+          {/* <div className="absolute inset-0 flex flex-row items-center justify-center mt-2 space-x-8">
+            <div className="w-80 pt-8 pr-10 pb-9 pl-10 bg-transparent-purple rounded-lg shadow-lg border-[#777777] border-2 border-lg text-white">
               <h4 className="text-xl font-bold mb-2">Restaurant</h4>
-              <p className="text-sm text-gray-700">
+              <p className="text-sm ">
+                Usage of the Internet is becoming more common due to rapid
+                advancement of technology and power.
+              </p>
+            </div>
+            <div className="w-80 pt-8 pr-10 pb-9 pl-10 bg-transparent-purple rounded-lg shadow-lg border-[#777777] border-2 border-lg text-white">
+              <h4 className="text-xl font-bold mb-2">Restaurant</h4>
+              <p className="text-sm ">
+                Usage of the Internet is becoming more common due to rapid
+                advancement of technology and power.
+              </p>
+            </div>
+            <div className="w-80 pt-8 pr-10 pb-9 pl-10 bg-transparent-purple rounded-lg shadow-lg border-[#777777] border-2 border-lg text-white">
+              <h4 className="text-xl font-bold mb-2">Restaurant</h4>
+              <p className="text-sm ">
                 Usage of the Internet is becoming more common due to rapid
                 advancement of technology and power.
               </p>
             </div>
           </div>
+
+          <div className="absolute inset-0 flex flex-row items-center justify-center mt-96 space-x-8">
+            <div className="w-80 pt-8 pr-10 pb-9 pl-10 bg-transparent-purple rounded-lg shadow-lg border-[#777777] border-2 border-lg text-white">
+              <h4 className="text-xl font-bold mb-2">Restaurant</h4>
+              <p className="text-sm ">
+                Usage of the Internet is becoming more common due to rapid
+                advancement of technology and power.
+              </p>
+            </div>
+            <div className="w-80 pt-8 pr-10 pb-9 pl-10 bg-transparent-purple rounded-lg shadow-lg border-[#777777] border-2 border-lg text-white">
+              <h4 className="text-xl font-bold mb-2">Restaurant</h4>
+              <p className="text-sm ">
+                Usage of the Internet is becoming more common due to rapid
+                advancement of technology and power.
+              </p>
+            </div>
+            <div className="w-80 pt-8 pr-10 pb-9 pl-10 bg-transparent-purple rounded-lg shadow-lg border-[#777777] border-2 border-lg text-white">
+              <h4 className="text-xl font-bold mb-2">Restaurant</h4>
+              <p className="text-sm ">
+                Usage of the Internet is becoming more common due to rapid
+                advancement of technology and power.
+              </p>
+            </div>
+          </div> */}
+
+          <div className="absolute inset-0 flex flex-row items-center justify-center gap-5 mb-16">
+            {/* <!-- First set of divs --> */}
+              <div className="w-80 pt-8 pr-10 pb-9 pl-10 bg-transparent-purple rounded-lg shadow-lg border-[#777777] border-2 border-lg text-white">
+                <h4 className="text-xl font-bold mb-2">Restaurant</h4>
+                <p className="text-sm">
+                  Usage of the Internet is becoming more common due to rapid
+                  advancement of technology and power.
+                </p>
+              </div>
+
+              <div className="w-80 pt-8 pr-10 pb-9 pl-10 bg-transparent-purple rounded-lg shadow-lg border-[#777777] border-2 border-lg text-white">
+                <h4 className="text-xl font-bold mb-2">Restaurant</h4>
+                <p className="text-sm">
+                  Usage of the Internet is becoming more common due to rapid
+                  advancement of technology and power.
+                </p>
+              </div>
+
+              <div className="w-80 pt-8 pr-10 pb-9 pl-10 bg-transparent-purple rounded-lg shadow-lg border-[#777777] border-2 border-lg text-white">
+                <h4 className="text-xl font-bold mb-2">Restaurant</h4>
+                <p className="text-sm">
+                  Usage of the Internet is becoming more common due to rapid
+                  advancement of technology and power.
+                </p>
+              </div>
+          </div>
+
+
+            {/* <!-- Second set of divs with space in between  */}
+            <div className="absolute inset-0 flex flex-row items-center justify-center gap-5 mt-96">
+              <div className="w-80 pt-8 pr-10 pb-9 pl-10 bg-transparent-purple rounded-lg shadow-lg border-[#777777] border-2 border-lg text-white">
+                <h4 className="text-xl font-bold mb-2">Restaurant</h4>
+                <p className="text-sm">
+                  Usage of the Internet is becoming more common due to rapid
+                  advancement of technology and power.
+                </p>
+              </div>
+
+              <div className="w-80 pt-8 pr-10 pb-9 pl-10 bg-transparent-purple rounded-lg shadow-lg border-[#777777] border-2 border-lg text-white">
+                <h4 className="text-xl font-bold mb-2">Restaurant</h4>
+                <p className="text-sm">
+                  Usage of the Internet is becoming more common due to rapid
+                  advancement of technology and power.
+                </p>
+              </div>
+
+              <div className="w-80 pt-8 pr-10 pb-9 pl-10 bg-transparent-purple rounded-lg shadow-lg border-[#777777] border-2 border-lg text-white">
+                <h4 className="text-xl font-bold mb-2">Restaurant</h4>
+                <p className="text-sm">
+                  Usage of the Internet is becoming more common due to rapid
+                  advancement of technology and power.
+                </p>
+              </div>
+              </div>
         </div>
       </div>
     </div>
