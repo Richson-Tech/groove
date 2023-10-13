@@ -182,47 +182,44 @@ const About = () => {
             aristocratic class a fall from
           </p>
           <div className="flex flex-row items-center justify-center gap-5 mt-20 mb-20">
-              <div className="w-4/12 h-60 bg-white p-10">
-                <div className="flex flex-row gap-6">
-                  <Image
-                    className="rounded-full"
-                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60"
-                    width={200}
-                    height={300}
-                  />
+            <div className="w-4/12 h-60 bg-white p-10">
+              <div className="flex flex-row gap-6">
+                <Image
+                  className="rounded-full"
+                  src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                  width={200}
+                  height={300}
+                />
 
-                  <p className="text-base font-[poppins] text-[#8c8d9e]">
-                    As conscious traveling Paupers we must always be concerned
-                    about our dear Mother Earth. If you think about it, you
-                    travel across her face, and She is the
-                  </p>
-                </div>
-                <h4 className="text-base pt-8 leading-7 font[poppins]">
-                  Fanny Spencer
-                </h4>
+                <p className="text-base font-[poppins] text-[#8c8d9e]">
+                  As conscious traveling Paupers we must always be concerned
+                  about our dear Mother Earth. If you think about it, you travel
+                  across her face, and She is the
+                </p>
               </div>
-              <div className="w-4/12 h-60 bg-white p-10">
-                <div className="flex flex-row gap-6">
-                  <Image
-                    className="rounded-full"
-                    src="https://plus.unsplash.com/premium_photo-1683121366070-5ceb7e007a97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60"
-                    width={200}
-                    height={300}
-                  />
+              <h4 className="text-base pt-8 leading-7 font[poppins]">
+                Fanny Spencer
+              </h4>
+            </div>
+            <div className="w-4/12 h-60 bg-white p-10">
+              <div className="flex flex-row gap-6">
+                <Image
+                  className="rounded-full"
+                  src="https://plus.unsplash.com/premium_photo-1683121366070-5ceb7e007a97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                  width={200}
+                  height={300}
+                />
 
-                  <p className="text-base font-[poppins] text-[#8c8d9e]">
-                    As conscious traveling Paupers we must always be concerned
-                    about our dear Mother Earth. If you think about it, you
-                    travel across her face, and She is the
-                  </p>
-                </div>
-                <h4 className="text-base pt-8 leading-7 font[poppins]">
-                  Fanny Spencer
-                </h4>
+                <p className="text-base font-[poppins] text-[#8c8d9e]">
+                  As conscious traveling Paupers we must always be concerned
+                  about our dear Mother Earth. If you think about it, you travel
+                  across her face, and She is the
+                </p>
               </div>
-            
-              
-
+              <h4 className="text-base pt-8 leading-7 font[poppins]">
+                Fanny Spencer
+              </h4>
+            </div>
           </div>
         </div>
       </div>
