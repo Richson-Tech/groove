@@ -43,11 +43,11 @@ const page = () => {
   return (
     <div className="w-full min-h-screen">
       <div className="h-screen bg-zinc-900 relative">
-        <div className="absolute flex flex-row mt-60 gap-14">
+        <div className="absolute flex flex-row mt-60 gap-20">
           <div className="flex flex-col justify-center items-center flex-1 text-white ">
             <h6 className=" font-['inter'] text-3xl">Welcome to Groove</h6>
             <h1 className="text-7xl font-['crimson']">The Peak Of Luxury</h1>
-            <p className="flex items-center justify-center text-center text-2xl font-['yeseva']">
+            <p className="flex items-center justify-center text-center text-2xl font-['yeseva'] pl-10">
               Sleek hospitality steps from LOS airport We're next to Murtala
               Muhammed Airport's international terminal, with in-house
               immigration facilities for private jet passengers. A fusion of
@@ -55,7 +55,7 @@ const page = () => {
               pool with adjoining terrace bar, a fitness center, and steam room.
               Our steak restaurant and two lounges complete your stay.
             </p>
-            <div className="flex justify-between gap-5">
+            <div className="flex justify-between gap-5 mt-5">
               <Link href="/restaurant">
                 <button className="bg-[#AA825D] text-white px-4 py-2 rounded transition hover:bg-white hover:text-black">
                   Check-In
@@ -162,9 +162,9 @@ const page = () => {
       </div>
 
       {/* varies of rooms available  */}
-      <div className="h-max bg-black text-2xl mt-10">
+      <div className="h-max bg-black text-2xl mt-20">
         <div className="flex items-center justify-center flex-wrap flex-col">
-          <h1 className="font-['Work_Sans'] text-5xl mt-5 text-white mb-5">
+          <h1 className="font-['Work_Sans'] text-5xl mt-12 text-white mb-5">
             Demo Of Rooms
           </h1>
           <h6 className="text-white mb-10 font-[crimson]">

@@ -191,13 +191,13 @@ const About = () => {
                   height={300}
                 />
 
-                <p className="text-base font-[poppins] text-[#8c8d9e]">
+                <p className="text-base font-[poppins] text-[#8c8d9e] font-normal">
                   As conscious traveling Paupers we must always be concerned
                   about our dear Mother Earth. If you think about it, you travel
                   across her face, and She is the
                 </p>
               </div>
-              <h4 className="text-base pt-8 leading-7 font[poppins]">
+              <h4 className="text-base pt-8 leading-7 font[poppins] font-semibold pl-10 hover:text-[#AA825D]">
                 Fanny Spencer
               </h4>
             </div>
@@ -210,14 +210,14 @@ const About = () => {
                   height={300}
                 />
 
-                <p className="text-base font-[poppins] text-[#8c8d9e]">
+                <p className="text-base font-[poppins] text-[#8c8d9e] font-normal">
                   As conscious traveling Paupers we must always be concerned
                   about our dear Mother Earth. If you think about it, you travel
                   across her face, and She is the
                 </p>
               </div>
-              <h4 className="text-base pt-8 leading-7 font[poppins]">
-                Fanny Spencer
+              <h4 className="text-base pt-8 leading-7 font[poppins] font-semibold pl-10 hover:text-[#AA825D]">
+                Donald Dimmit
               </h4>
             </div>
           </div>
