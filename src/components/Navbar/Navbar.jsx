@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <div className=' flex justify-between h-20 bg-[#FAF5E7] text text-black'>
-     <Link href="/" className='flex items-center p-4 text-3xl font-bold hover:text-[#AA825D]'>
+     <Link href="/" className='flex items-center p-4 text-4xl font-bold font-[AutourOne] hover:text-[#AA825D]'>
      Groove
      </Link>
      <div className='flex items-center justify-end gap-10 ml-32 text-base font-medium'>

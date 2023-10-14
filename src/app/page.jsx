@@ -744,7 +744,7 @@ const page = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-row items-center justify-center gap-96 space-x-80 mb-24">
+        <div className="flex flex-row items-center justify-center gap-96 space-x-80 mb-20">
           <div className="w-16 h-16 rounded-full bg-[#AA825D] flex justify-center items-center">
             <FaUser size={30} className="text-white " />
           </div>

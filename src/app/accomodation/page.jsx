@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from "next/image";
+
 import styles from "./page.module.css";
 
 export const metadata = {
@@ -17,7 +19,7 @@ const Accommodation = () => {
           fill={true}
         />
         <div className="text-center absolute inset-0 flex items-center justify-center">
-          <h2 className=" text-4xl font-bold font-['Work_Sans']">About Us</h2>
+          <h2 className=" text-4xl font-bold font-['Work_Sans'] ">Accomodation</h2>
         </div>
         <div className="absolute inset-0 bg-yellow-900 opacity-20"></div>
       </div>

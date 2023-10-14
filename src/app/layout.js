@@ -8,7 +8,7 @@ const crimson = Crimson_Pro({ subsets: ["latin"] });
 const yeseva = Yeseva_One({ subsets: ["latin"], weight: ["400"] });
 const WorkSans = Work_Sans({ subsets: ["latin"], weight: ["400"] });
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "500"] });
-const AutourOne= Autour_One({ subsets: ["latin"], weight: ["400", "500"] });
+const AutourOne= Autour_One({ subsets: ["latin"], weight: ["400"] });
 // const Crimson_Pro = Crimson_Pro({ subsets: ['latin'] })
 
 export const metadata = {
