@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-
 import styles from "./page.module.css";
+import cards from '@/data/cards'
 
 export const metadata = {
   title: "Accomodation",
@@ -37,9 +37,9 @@ const Accommodation = () => {
 
       {/* accomodations cards  */}
 
-      <div>
-        <div>
-          
+      <div className="flex flex-row items-center justify-center">
+        <div className="relative ">
+         <Image/>
         </div>
       </div>
     </div>
