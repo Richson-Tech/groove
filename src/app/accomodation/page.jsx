@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Image from "next/image";
 
 import styles from "./page.module.css";
@@ -10,8 +10,8 @@ export const metadata = {
 
 const Accommodation = () => {
   return (
-    <div className='h-max'>
-       <div className={styles.imgContainer}>
+    <div className="h-max">
+      <div className={styles.imgContainer}>
         <Image
           alt="An hotel badge photo"
           className={styles.img}
@@ -19,12 +19,31 @@ const Accommodation = () => {
           fill={true}
         />
         <div className="text-center absolute inset-0 flex items-center justify-center">
-          <h2 className=" text-4xl font-bold font-['Work_Sans'] ">Accomodation</h2>
+          <h2 className=" text-4xl font-bold font-['Work_Sans'] ">
+            Accomodation
+          </h2>
         </div>
         <div className="absolute inset-0 bg-yellow-900 opacity-20"></div>
       </div>
-    </div>
-  )
-}
+      <div className="flex flex-col items-center justify-center mt-10">
+        <h2 className="text-3xl leading-9 pb-3 font-semibold">
+          Special Accomodation
+        </h2>
+        <p className="text-sm text-[#777777]">
+          We all live in an age that belongs to the young at heart. Life that is
+          becoming extremely fast
+        </p>
+      </div>
 
-export default Accommodation
+      {/* accomodations cards  */}
+
+      <div>
+        <div>
+          
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Accommodation;
