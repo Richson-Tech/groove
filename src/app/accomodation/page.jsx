@@ -38,12 +38,12 @@ const Accommodation = () => {
       {/* accomodations cards  */}
 
       <div className="flex flex-row items-center justify-center gap-10 mt-10">
-        {cards.map(({ id, p, h5, h6, src }) => (
+        {cards.map(({ id, p, h4, h6, src }) => (
           <>
             <div className="flex flex-col items-center justify-center">
               <div className="relative flex flex-row items-center justify-center">
                 <Image
-                  className="transition-transform transform scale-100 hover:scale-110"
+                  className="transition-transform transform scale-100 hover:scale-110 hover:duration-500"
                   alt="Images For Accomodation"
                   key={id}
                   src={src}
@@ -52,13 +52,16 @@ const Accommodation = () => {
                 />
               </div>
               <div className=" flex flex-row items-center justify-center ">
-                <p className="absolute flex flex-row items-center justify-center text-center mb-16 bg-[#f3c300] h-10 w-32 text-white hover:bg-yellow-600">
+                <p className="absolute flex flex-row items-center justify-center text-sm leading-8 uppercase font-semibold text-center mb-16 bg-[#f3c300] h-10 w-32 text-white hover:bg-yellow-600">
                   {p}
                 </p>
               </div>
               <div className="flex flex-col mt-5">
-                <h5>{h5}</h5>
-                <h5>{h6}</h5>
+                <h4 className="text-2xl font-[yeseva] font-semibold leading-10 text-[#222222]">{h4}</h4>
+                <div className="flex flex-row items-center justify-center">
+                <h6 className="text-2xl font-[yeseva] font-semibold leading-10 text-[#52c5fd]">{h6}</h6>
+                <h6 className="font-base pl-1 text-[#52c5fd] font-[poppins]">/night</h6>
+                </div>
               </div>
             </div>
           </>
