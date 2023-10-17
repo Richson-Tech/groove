@@ -41,7 +41,6 @@ const Accommodation = () => {
         <div className="relative ">
          {cards.map(({id,p,h5,h6,src})=>
          <Image className="relative" key={id} src={src} height={200} width={300}/>
-         <p></p>
          )}
         </div>
       </div>
