@@ -57,15 +57,33 @@ const Accommodation = () => {
                 </p>
               </div>
               <div className="flex flex-col mt-5">
-                <h4 className="text-2xl font-[yeseva] font-semibold leading-10 text-[#222222]">{h4}</h4>
+                <h4 className="text-2xl font-[yeseva] font-semibold leading-10 text-[#222222]">
+                  {h4}
+                </h4>
                 <div className="flex flex-row items-center justify-center">
-                <h6 className="text-2xl font-[yeseva] font-semibold leading-10 text-[#52c5fd]">{h6}</h6>
-                <h6 className="font-base pl-1 text-[#52c5fd] font-[poppins]">/night</h6>
+                  <h6 className="text-2xl font-[yeseva] font-semibold leading-10 text-[#52c5fd]">
+                    {h6}
+                  </h6>
+                  <h6 className="font-base pl-1 text-[#52c5fd] font-[poppins]">
+                    /night
+                  </h6>
                 </div>
               </div>
             </div>
           </>
         ))}
+      </div>
+
+      {/* room booking section  */}
+      <div className="flex flex-row items-center justify-center mt-16">
+        <div className="h-36 w-3/5 bg-[#04091E]">
+          <div className="flex flex-row items-center justify-center">
+            <div className="flex flex-col">
+              <h2 className="text-white">BOOK</h2>
+              <h2 className="text-white">YOUR ROOM</h2>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
