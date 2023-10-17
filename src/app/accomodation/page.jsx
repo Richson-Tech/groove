@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./page.module.css";
-import cards from '@/data/cards'
+import cards from "@/data/cards";
 
 export const metadata = {
   title: "Accomodation",
@@ -37,12 +37,32 @@ const Accommodation = () => {
 
       {/* accomodations cards  */}
 
-      <div className="flex flex-row items-center justify-center">
-        <div className="relative ">
-         {cards.map(({id,p,h5,h6,src})=>
-         <Image className="relative" key={id} src={src} height={200} width={300}/>
-         )}
-        </div>
+      <div className="flex flex-row items-center justify-center gap-10 mt-10">
+        {cards.map(({ id, p, h5, h6, src }) => (
+          <>
+            <div className="flex flex-col items-center justify-center">
+              <div className="relative flex flex-row items-center justify-center">
+                <Image
+                  className="transition-transform transform scale-100 hover:scale-110"
+                  alt="Images For Accomodation"
+                  key={id}
+                  src={src}
+                  height={270}
+                  width={263}
+                />
+              </div>
+              <div className=" flex flex-row items-center justify-center ">
+                <p className="absolute flex flex-row items-center justify-center text-center mb-16 bg-[#f3c300] h-10 w-32 text-white hover:bg-yellow-600">
+                  {p}
+                </p>
+              </div>
+              <div className="flex flex-col mt-5">
+                <h5>{h5}</h5>
+                <h5>{h6}</h5>
+              </div>
+            </div>
+          </>
+        ))}
       </div>
     </div>
   );
