@@ -1,9 +1,12 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import styles from "./page.module.css";
 import cards from "@/data/cards";
+import CalendarInput from "@/components/CalenderInput/CalenderInput";
+import CalendarTwo from "@/components/CalenderInput/CalenderTwo";
 
-export const metadata = {
+const metadata = {
   title: "Accomodation",
   description: "This is Accomodation Page",
 };
@@ -78,12 +81,18 @@ const Accommodation = () => {
       <div className="flex flex-row items-center justify-center mt-16">
         <div className="h-36 w-3/5 bg-[#04091E]">
           <div className="flex flex-row items-center justify-center">
-            <div className="flex flex-row">
-              <h2 className="text-white">BOOK</h2>
-              <h2 className="text-white">YOUR ROOM</h2>
-              <p className="absolute flex flex-row items-center justify-center text-sm leading-8 uppercase font-semibold text-center mb-16 bg-[#f3c300] h-10 w-32 text-white hover:bg-yellow-600">
+            <div className="grid grid-cols-4 gap-1">
+              <h2 className="text-white">
+                BOOK <br /> YOUR ROOM
+              </h2>
+
+              <CalendarInput />
+              <CalendarTwo />
+              <div className="place-self-end ">
+                <p className="absolute flex flex-row items-center justify-center text-sm leading-8 uppercase font-semibold text-center mb-16 bg-[#f3c300] h-10 w-32 text-white hover:bg-yellow-600">
                   BOOK NOW
                 </p>
+              </div>
             </div>
           </div>
         </div>
