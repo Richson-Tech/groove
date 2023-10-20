@@ -105,6 +105,11 @@ const Accommodation = () => {
           </div>
         </div>
       </div>
+
+      {/* normal accomodation section  */}
+      <div className="flex flex-row items-center justify-center">
+        <h2>Normal Accomodation</h2>
+      </div>
     </div>
   );
 };
