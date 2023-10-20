@@ -83,21 +83,21 @@ const Accommodation = () => {
       <div className="flex flex-row items-center justify-center mt-16">
         <div className="h-36 w-3/5 bg-[#04091E]">
           <div className="flex flex-row items-center justify-center">
-            <div className="grid grid-cols-4 gap-1">
-              <h2 className="text-white">
+            <div className="grid grid-cols-4">
+              <h2 className="flex flex-row justify-center items-center text-white text-xl leading-8 font-bold uppercase">
                 BOOK <br /> YOUR ROOM
               </h2>
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-2 pt-6">
                 <CalendarInput />
                 <CalendarTwo />
               </div>
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-2 pt-6">
                 <Input/>
                 <Input/>
               </div>
-              <div className="place-self-end ">
+              <div className="place-self-end ml-11 gap-4 pb-12">
                 <Rooms/>
-                <p className="absolute flex flex-row items-center justify-center text-sm leading-8 uppercase font-semibold text-center mb-16 bg-[#f3c300] h-10 w-32 text-white hover:bg-yellow-600">
+                <p className="absolute flex flex-row items-center justify-center text-sm leading-8 uppercase font-semibold text-center mb-16 bg-[#f3c300] h-10 w-52 text-black hover:bg-yellow-600 hover:text-white">
                   BOOK NOW
                 </p>
               </div>

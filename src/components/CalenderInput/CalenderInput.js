@@ -11,7 +11,7 @@ const CalendarInput = () => {
         selected={selectedDate}
         onChange={(date) => setSelectedDate(date)}
         dateFormat="dd/MM/yyyy"
-        className="rounded-md border p-2 focus:outline-none bg-transparent border-[#2b3146] font-[poppins] text-base"
+        className="rounded-md border p-2 focus:outline-none bg-white border-[#2b3146] font-[poppins] text-base"
         placeholderText='Arrival Date'
       />
     </div>
