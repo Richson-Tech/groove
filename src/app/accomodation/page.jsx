@@ -5,6 +5,8 @@ import styles from "./page.module.css";
 import cards from "@/data/cards";
 import CalendarInput from "@/components/CalenderInput/CalenderInput";
 import CalendarTwo from "@/components/CalenderInput/CalenderTwo";
+import Input from "@/components/Inputs/Inputs";
+import Rooms from "@/components/Rooms/Rooms";
 
 const metadata = {
   title: "Accomodation",
@@ -85,10 +87,16 @@ const Accommodation = () => {
               <h2 className="text-white">
                 BOOK <br /> YOUR ROOM
               </h2>
-
-              <CalendarInput />
-              <CalendarTwo />
+              <div className="flex flex-col gap-2">
+                <CalendarInput />
+                <CalendarTwo />
+              </div>
+              <div className="flex flex-col gap-2">
+                <Input/>
+                <Input/>
+              </div>
               <div className="place-self-end ">
+                <Rooms/>
                 <p className="absolute flex flex-row items-center justify-center text-sm leading-8 uppercase font-semibold text-center mb-16 bg-[#f3c300] h-10 w-32 text-white hover:bg-yellow-600">
                   BOOK NOW
                 </p>
