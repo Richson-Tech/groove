@@ -118,7 +118,7 @@ const Accommodation = () => {
         </p>
       </div>
     {/* normal accomodation section  */}
-      <div className="grid grid-cols-4 gap-4 m-64 mt-10">
+      <div className="grid grid-cols-4 gap-4 ml-64 mr-64 mt-10">
         {cardsTwo.map(({ id, p, h4, h6, src }) => (
           <>
             <div className="flex flex-col items-center justify-center">

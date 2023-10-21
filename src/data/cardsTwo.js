@@ -39,14 +39,14 @@ const cards = [
         p:"Book Now",
         h4: "Single Best Room",
         h6: "$100",
-        src:"https://media.istockphoto.com/id/1444373361/photo/room-interior-with-bed-in-minimalistic-setting.webp?b=1&s=170667a&w=0&k=20&c=HoaG3ut89m5mmGM56dftD9G9WJBDlsPzC6rkeTWyjkQ="
+        src:"https://images.unsplash.com/photo-1608198399988-341f712c3711?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGhvdGVsJTIwcm9vbXN8ZW58MHx8MHx8fDA%3D"
     },
     {
         id:7,
         p:"Book Now",
         h4: "Silent Palace",
         h6: "$100",
-        src:"https://media.istockphoto.com/id/457982209/photo/towels-on-bed-in-bedroom.webp?b=1&s=170667a&w=0&k=20&c=RRukftoHEiXAukDC8LqAIUhqrpuj9DJuTHS2koKrcds="
+        src:"https://media.istockphoto.com/id/1334117334/photo/digital-render-of-large-hotel-suite-bedroom.webp?b=1&s=170667a&w=0&k=20&c=J7QHUWAC5QZOMfvRW_eYJlNeHQA1VOgb9LNtU_ysRLU="
     },
     {
         id:8,
