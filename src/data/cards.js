@@ -3,14 +3,14 @@ const cards = [
         id:1,
         p:"Book Now",
         h4: "Double Deluxe Room",
-        h6: "$250",
+        h6: "$350",
         src:"https://themewagon.github.io/royal/image/room1.jpg"
     },
     {
         id:2,
         p:"Book Now",
         h4: "Single Deluxe Room",
-        h6: "$200",
+        h6: "$400",
         src:"https://themewagon.github.io/royal/image/room2.jpg"
     },
     {
@@ -24,7 +24,7 @@ const cards = [
         id:4,
         p:"Book Now",
         h4: "Economy Double",
-        h6: "$200",
+        h6: "$550",
         src:"https://themewagon.github.io/royal/image/room4.jpg"
     }
 ]
