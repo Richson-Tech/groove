@@ -7,6 +7,7 @@ import cardsTwo from "@/data/cardsTwo";
 import CalendarInput from "@/components/CalenderInput/CalenderInput";
 import CalendarTwo from "@/components/CalenderInput/CalenderTwo";
 import Input from "@/components/Inputs/Inputs";
+import InputsTwo from "@/components/Inputs/InputsTwo";
 import Rooms from "@/components/Rooms/Rooms";
 
 const metadata = {
@@ -94,7 +95,7 @@ const Accommodation = () => {
               </div>
               <div className="flex flex-col gap-2 pt-6">
                 <Input />
-                <Input />
+                <InputsTwo />
               </div>
               <div className="place-self-end ml-11 gap-4 pb-12">
                 <Rooms />
