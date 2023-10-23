@@ -35,18 +35,18 @@ const Gallery = () => {
 
       {/* Pictures section  */}
 
-      <div className="grid grid-cols-3 gap-4 ml-96 mr-96 mt-10">
+      <div className="grid grid-cols-3 gap-4 ml-80 mr-80 mt-10">
         {pictures.map(({ id, src }) => (
           <>
             <div className="flex flex-col items-center justify-center">
               <div className="relative flex flex-row items-center justify-center">
                 <Image
-                  className="transition-transform transform scale-100 hover:scale-110 hover:duration-500"
+                  className="transition-transform transform scale-100 hover:scale-110 hover:duration-500 hover:opacity-60 hover:transition-all delay-75"
                   alt="Images For Gallery"
                   key={id}
                   src={src}
                   height={270}
-                  width={263}
+                  width={383}
                 />
               </div>
             </div>
