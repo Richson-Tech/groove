@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Image from "next/image";
 import styles from "./page.module.css";
 
@@ -9,8 +9,8 @@ export const metadata = {
 
 const Contact = () => {
   return (
-   <div className='h-max'>
-     <div className={styles.imgContainer}>
+    <div className="h-max">
+      <div className={styles.imgContainer}>
         <Image
           alt="An hotel badge photo"
           className={styles.img}
@@ -24,8 +24,25 @@ const Contact = () => {
         </div>
         <div className="absolute inset-0 bg-yellow-900 opacity-20"></div>
       </div>
-   </div>
-  )
-}
+      {/* about us section  */}
 
-export default Contact
+      <div className="flex flex-row items-center justify-center gap-20 mt-20">
+        <div className="flex items-center justify-center">
+          <Image
+            src="https://media.istockphoto.com/id/506799337/photo/multiethnic-group-of-people-and-about-us-concept.webp?b=1&s=170667a&w=0&k=20&c=j2D-BjEdtv0VcnHceLg_Kivg7mOxvUJGzXVJpdGIcB0="
+            alt="An hotel view"
+            height={755}
+            width={850}
+            className="ml-10 mb-10"
+          />
+        </div>
+        <div className="flex flex-col items-center justify-center w-3/12">
+          <h2 className="text-4xl font-[poppins]">Lets get started</h2>
+          <p className="block">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Contact;
