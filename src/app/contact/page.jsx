@@ -37,8 +37,17 @@ const Contact = () => {
           />
         </div>
         <div className="flex flex-col items-center justify-center w-3/12">
-          <h2 className="text-4xl font-[poppins]">Lets get started</h2>
-          <p className="block">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          <div className="mb-80">
+            <h2 className="text-4xl font-bold mb-4 font-[poppins]">
+              Lets get started
+            </h2>
+            <p className="block text-lg font-[poppins] font-normal text-[#808080]">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean.
+            </p>
+          </div>
         </div>
       </div>
     </div>
