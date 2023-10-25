@@ -39,7 +39,7 @@ const Contact = () => {
         <div className="flex flex-col items-center justify-center w-3/12">
           <div className="mb-80">
             <h2 className="text-4xl font-bold mb-4 font-[poppins]">
-              Lets get started
+              Lets get <span className="text-[#9B804E]">Started </span>
             </h2>
             <p className="block text-lg font-[poppins] font-normal text-[#808080]">
               Far far away, behind the word mountains, far from the countries
