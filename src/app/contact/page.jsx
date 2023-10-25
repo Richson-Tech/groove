@@ -38,17 +38,24 @@ const Contact = () => {
             className="ml-10"
           />
         </div>
-        <div className="flex flex-col items-center justify-center h-4/6 w-4/12 pl-10 bg-white">
-          <div className="mb-80">
+        <div className="flex flex-col items-center justify-center h-max w-3/12 pl-10 bg-white">
+          <div className="mb-48">
             <h2 className="text-4xl font-bold mb-4 pt-10 font-[poppins]">
               Lets get <span className="text-[#9B804E]">Started </span>
             </h2>
             <p className="block text-lg font-[poppins] font-normal text-[#808080]">
               Far far away, behind the word mountains, far <br /> from the
-              countries Vokalia and Consonantia, there live the blind texts.
-              Separated they live in Bookmarksgrove right at the coast of the
+              countries Vokalia and Consonantia, <br /> there live the blind texts.
+              Separated they live in <br /> Bookmarksgrove right at the coast of the <br />
               Semantics, a large language ocean.
             </p>
+            <div className="flex items-center justify-center">
+              <Link href="/booknow" className="flex items-center p-4">
+                <button className="h-16 bg-[#9B804E] font-[poppins] w-48 text-white hover:bg-transparent hover:text-[#9B804E] hover:border border-[#9B804E]">
+                  BOOK APPOINTMENT NOW
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
