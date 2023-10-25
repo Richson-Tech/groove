@@ -1,8 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./page.module.css";
-import Link from 'next/link'
-
+import Link from "next/link";
+import { LuMapPin } from "react-icons/lu";
+import { MdCall } from "react-icons/md";
+import { SiMinutemailer } from "react-icons/si";
+import { BiWorld } from "react-icons/bi";
 
 export const metadata = {
   title: "Contact",
@@ -45,8 +48,9 @@ const Contact = () => {
             </h2>
             <p className="block text-lg font-[poppins] font-normal text-[#808080]">
               Far far away, behind the word mountains, far <br /> from the
-              countries Vokalia and Consonantia, <br /> there live the blind texts.
-              Separated they live in <br /> Bookmarksgrove right at the coast of the <br />
+              countries Vokalia and Consonantia, <br /> there live the blind
+              texts. Separated they live in <br /> Bookmarksgrove right at the
+              coast of the <br />
               Semantics, a large language ocean.
             </p>
             <div className="flex items-center justify-center">
@@ -63,7 +67,7 @@ const Contact = () => {
       {/* get in touch section */}
       <div className=" pl-10">
         <div className="flex flex-row items-center justify-center gap-20">
-          <div className="flex flex-col items-center justify-center h-max w-5/12 mb-72 bg-white">
+          <div className="flex flex-col items-center justify-center mb-72 h-max w-5/12 bg-white">
             <h2 className="pt-10 text-3xl font-bold font-[PlayfairDisplay]">
               Get in touch
             </h2>
@@ -133,6 +137,50 @@ const Contact = () => {
                   SEND MESSAGE
                 </button>
               </Link>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center justify-center h-max w-3/12 p-10 bg-[#FD7792]">
+            <div className="mb-48">
+              <h2 className="text-4xl font-bold mb-4 pt-10 font-[poppins] text-white">
+                Let's get <span className="text-black">in touch </span>
+              </h2>
+              <p className="block text-lg font-[poppins] font-normal text-white">
+                We're open for any suggestion or just to have a chat
+              </p>
+              <div className="flex items-center justify-center text-white">
+                <div className="flex flex-row">
+                  <LuMapPin size={30} className="text-white" />
+                  <p className="text-xl font-[poppins]">
+                    <span className="font-bold">Address: </span> 198 West 21th
+                    Street, Suite 721 New York NY 10016
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-start justify-start text-white">
+                <div className="flex flex-row">
+                  <MdCall size={30} className="text-white mr-2" />
+                  <p className="text-xl font-[poppins]">
+                    <span className="font-bold">Phone: </span> + 1235 2355 98
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-start justify-start text-white">
+                <div className="flex flex-row">
+                  <SiMinutemailer size={30} className="text-white mr-2" />
+                  <p className="text-xl font-[poppins]">
+                    <span className="font-bold">Email: </span>  info@yoursite.com
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-start justify-start text-white">
+                <div className="flex flex-row">
+                  <BiWorld size={30} className="text-white mr-2" />
+                  <p className="text-xl font-[poppins]">
+                    <span className="font-bold">Website: </span> Groove.com
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
