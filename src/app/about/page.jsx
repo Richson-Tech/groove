@@ -48,7 +48,7 @@ const About = () => {
 
             <div className="relative h-10 w-56 mt-10">
               <div className="absolute left-0 top-0 w-0 h-full bg-amber-600 transition-all duration-300 ease-in-out"></div>
-              <div className="flex flex-col items-center justify-center h-full bg-black hover:bg-[#AA825D] transition-all duration-700 ease-in-out relative">
+              <div className="flex flex-col items-center justify-center h-full bg-black cursor-pointer hover:bg-[#AA825D] transition-all duration-700 ease-in-out relative">
                 <h2 className="text-white text-base font-[poppins]">
                   REQUEST CUSTOM PRICE
                 </h2>

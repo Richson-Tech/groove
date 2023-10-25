@@ -55,7 +55,7 @@ const Contact = () => {
             </p>
             <div className="flex items-center justify-center">
               <Link href="/booknow" className="flex items-center p-4">
-                <button className="h-16 bg-[#9B804E] font-[poppins] w-48 text-white hover:bg-transparent hover:text-[#9B804E] hover:border border-[#9B804E]">
+                <button className="h-16 bg-[#9B804E] font-[poppins] w-48 text-white cursor-pointer hover:bg-transparent hover:text-[#9B804E] hover:border border-[#9B804E]">
                   BOOK APPOINTMENT NOW
                 </button>
               </Link>
@@ -133,7 +133,7 @@ const Contact = () => {
             </div>
             <div className="flex items-center justify-center">
               <Link href="/booknow" className="flex items-center p-4">
-                <button className="h-10 bg-[#9B804E] font-[poppins] w-40 text-white hover:bg-transparent hover:text-[#9B804E] hover:border border-[#9B804E]">
+                <button className="h-10 bg-[#9B804E] font-[poppins] w-40 text-white cursor-pointer hover:bg-transparent hover:text-[#9B804E] hover:border border-[#9B804E]">
                   SEND MESSAGE
                 </button>
               </Link>
@@ -169,7 +169,7 @@ const Contact = () => {
                 <div className="flex flex-row">
                   <SiMinutemailer size={30} className="text-white mr-2" />
                   <p className="text-xl font-[poppins]">
-                    <span className="font-bold">Email: </span>  info@yoursite.com
+                    <span className="font-bold">Email: </span> info@yoursite.com
                   </p>
                 </div>
               </div>
