@@ -59,7 +59,7 @@ const Accommodation = () => {
                 />
               </div>
               <div className=" flex flex-row items-center justify-center ">
-                <p className="absolute flex flex-row items-center justify-center text-sm leading-8 uppercase font-semibold text-center mb-16 bg-[#f3c300] h-10 w-32 text-white hover:bg-yellow-600">
+                <p className="absolute flex flex-row items-center justify-center text-sm leading-8 uppercase font-semibold text-center mb-16 bg-[#f3c300] cursor-pointer h-10 w-32 text-white hover:bg-yellow-600">
                   {p}
                 </p>
               </div>
@@ -99,7 +99,7 @@ const Accommodation = () => {
               </div>
               <div className="place-self-end ml-11 gap-4 pb-12">
                 <Rooms />
-                <p className="absolute flex flex-row items-center justify-center text-sm leading-8 uppercase font-semibold text-center mb-16 bg-[#f3c300] h-10 w-52 text-black hover:bg-yellow-600 hover:text-white">
+                <p className="absolute flex flex-row items-center justify-center text-sm leading-8 uppercase font-semibold text-center mb-16 bg-[#f3c300] h-10 w-52 text-black cursor-pointer hover:bg-yellow-600 hover:text-white">
                   BOOK NOW
                 </p>
               </div>
@@ -134,7 +134,7 @@ const Accommodation = () => {
                 />
               </div>
               <div className=" flex flex-row items-center justify-center ">
-                <p className="absolute flex flex-row items-center justify-center text-sm leading-8 uppercase font-semibold text-center mb-16 bg-[#f3c300] h-10 w-32 text-white hover:bg-yellow-600">
+                <p className="absolute flex flex-row items-center justify-center text-sm leading-8 uppercase font-semibold text-center mb-16 bg-[#f3c300] h-10 w-32 text-white cursor-pointer hover:bg-yellow-600">
                   {p}
                 </p>
               </div>

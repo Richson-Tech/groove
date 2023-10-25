@@ -41,7 +41,7 @@ const Gallery = () => {
             <div className="flex flex-col items-center justify-center">
               <div className="relative flex flex-row items-center justify-center">
                 <Image
-                  className="transition-transform transform scale-100 hover:scale-110 hover:duration-500 hover:opacity-60 hover:transition-all delay-75"
+                  className="transition-transform transform scale-100 hover:scale-110 hover:duration-500 hover:opacity-60 hover:transition-all delay-75 cursor-grab"
                   alt="Images For Gallery"
                   key={id}
                   src={src}
