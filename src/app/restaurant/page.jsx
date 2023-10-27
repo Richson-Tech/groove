@@ -18,7 +18,7 @@ const page = () => {
     />
     <div className="text-center absolute inset-0 flex items-center justify-center">
       <h2 className=" text-4xl font-bold font-['Work_Sans'] ">
-        Contact Us
+        Restaurant
       </h2>
     </div>
     <div className="absolute inset-0 bg-yellow-900 opacity-20"></div>
