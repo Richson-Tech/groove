@@ -11,21 +11,16 @@ const links = [
     },
     {
         id: 3,
-        title: "RESTAURANT",
-        url: "/restaurant"
-    },
-    {
-        id: 4,
         title: "ACCOMODATION",
         url: "/accomodation"
     },
     {
-        id: 5,
+        id: 4,
         title: "GALLERY",
         url: "/gallery"
     },
     {
-        id: 6,
+        id: 5,
         title: "CONTACT",
         url: "/contact"
     }
