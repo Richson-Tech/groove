@@ -7,7 +7,9 @@ export const metadata = {
 
 const page = () => {
   return (
-    <div>bookNow</div>
+    <div>bookNow
+      
+    </div>
   )
 }
 
